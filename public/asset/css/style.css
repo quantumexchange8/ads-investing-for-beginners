@@ -4120,7 +4120,7 @@ Faq Area
 
 .faq-accordion .accordion .accordion-item {
   display: block;
-  background: #f5f5ff;
+  background: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -4150,7 +4150,7 @@ Faq Area
 }
 
 .faq-accordion .accordion .accordion-title.active i::before {
-  color: #c8242f;
+  color: rgb(24, 67, 116);
 }
 
 .faq-accordion .accordion .accordion-content {
@@ -4158,7 +4158,7 @@ Faq Area
   position: relative;
   padding: 15px 20px;
   font-size: 14px;
-  border-top: 1px solid #c8242f;
+  border-top: 1px solid rgb(33, 78, 129);
 }
 
 .faq-accordion .accordion .accordion-content.show {

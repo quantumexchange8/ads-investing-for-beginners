@@ -276,7 +276,7 @@
 </section>
 <!--End of How can i investSection -->
 
-<!--Types of Investment 1 Section-->
+<!--Types of Investment Section-->
 <div class="hero-slider hero-slider-two owl-carousel owl-theme">
   <div class="hero-slider-item item-bg4">
       <div class="d-table">
@@ -305,7 +305,6 @@
           </div>
       </div>
   </div>
-
 
   <div class="hero-slider-item item-bg6">
       <div class="d-table">
@@ -365,7 +364,7 @@
             </div>
         </div>
     </div>
-</div>
+  </div>
 </div>
 
 <div class="low-card-area-two">
@@ -381,7 +380,6 @@
               </div>
             </div>
 
-         
             <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div class="low-card-two">
                   <i class="bi bi-briefcase-fill"></i>
@@ -405,10 +403,7 @@
   </div>
 </div>
 
-<!--End of 4 Types of Investment 1 Section-->
-
-
-
+<!--End of Types of Investment Section-->
 
 
 
@@ -512,6 +507,140 @@
     </div>
   </section>
   <!-- End Investment plan Section -->
+
+
+<!--FAQ Option 1-->
+
+<div class="faq-area ptb-100 section-bg">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <div class="section-title">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+              <div class="faq-accordion">
+                  <ul class="accordion">
+                      <li class="accordion-item">
+                          <a class="accordion-title active" href="javascript:void(0)">
+                              <i class="las la-plus"></i>
+                              What is investing, and why should I consider it as a beginner?
+                          </a>
+
+                          <p class="accordion-content show">
+                            Investing involves putting your money to work with the goal of generating returns over time. It's a pathway to wealth-building, financial security,
+                            and achieving long-term financial goals.   
+                          </p>
+                      </li>
+                      
+                      <li class="accordion-item">
+                          <a class="accordion-title" href="javascript:void(0)">
+                              <i class="las la-plus"></i>
+                              How much money do I need to start investing?
+                          </a>
+
+                          <p class="accordion-content">
+                            You can start with as little as you're comfortable with. Many investment platforms allow you to begin with small amounts. 
+                            The key is consistency in contributions. 
+                          </p>
+                      </li>
+                      
+                      <li class="accordion-item">
+                          <a class="accordion-title" href="javascript:void(0)">
+                              <i class="las la-plus"></i>
+                              What are some beginner-friendly investment options?
+                          </a>
+
+                          <p class="accordion-content">
+                            Consider diversified options like index funds, ETFs, or target-date funds. These provide broad exposure and are relatively less 
+                            volatile than individual stocks.     
+                          </p>
+                      </li>
+
+                      <li class="accordion-item">
+                          <a class="accordion-title" href="javascript:void(0)">
+                              <i class="las la-plus"></i>
+                              Is investing risky, and can I lose all my money?
+                          </a>
+
+                          <p class="accordion-content">
+                            All investments come with some level of risk. However, diversification and a long-term perspective can help mitigate risks. 
+                            It's crucial to understand your risk tolerance and invest accordingly.       
+                          </p>
+                      </li>
+                      
+                      <li class="accordion-item">
+                          <a class="accordion-title" href="javascript:void(0)">
+                              <i class="las la-plus"></i>
+                              How do I choose the right investment strategy? 
+                          </a>
+
+                          <p class="accordion-content">
+                            Start by defining your financial goals and risk tolerance. Consider factors like time horizon and the level of involvement you want. 
+                            Consult with a financial advisor if needed.   
+                          </p>
+                      </li>
+
+                   
+                  </ul>
+              </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="contact-form">
+              <form id="contactForm">
+                  <div class="section-title mb-2">
+                      <h2>Join Us</h2>  
+                  </div> 
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" required data-error="Please enter your name" placeholder="Your Name">
+                              <div class="help-block with-errors"></div>
+                              <i class="las la-user"></i>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" id="email" required data-error="Please enter your email" placeholder="Email Address">
+                            <div class="help-block with-errors"></div>
+                            <i class="las la-envelope"></i>
+                        </div>
+                    </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <input type="text" name="email" class="form-control" id="Phone" required data-error="Please enter your phone" placeholder="Your Phone">
+                              <div class="help-block with-errors"></div>
+                              <i class="las la-phone"></i>
+                          </div>
+                      </div>
+    
+                    
+    
+                      <div class="col-lg-12 col-md-12">
+                          <div class="form-group">
+                              <textarea name="message" id="message" class="form-control" cols="30" rows="6" data-error="Please enter your message" placeholder="Write message..."></textarea>
+                              <div class="help-block with-errors"></div>
+                              <i class="las la-sms"></i>
+                          </div>
+                      </div>
+    
+                      <div class="col-lg-12 col-md-12">
+                          <button type="submit" class="default-btn-one">Submit</button>
+                          <div id="msgSubmit" class="h3 text-center hidden"></div>
+                          <div class="clearfix"></div>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          </div>
+      </div>
+
+      
+      
+     
+  </div>
+</div>
+<!--End of FAQ---->
 
 
 
