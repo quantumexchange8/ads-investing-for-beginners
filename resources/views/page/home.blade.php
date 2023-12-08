@@ -53,12 +53,9 @@
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
-
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-
             <div class="content">
               <h3>Pick Your  <strong>Investment Strategy</strong></h3>
-      
             </div>
 
             <div class="accordion-list">
@@ -115,29 +112,28 @@
                      </p>
                   </div>
                 </li>
-
               </ul>
             </div>
 
           </div>
-
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/Untitled design.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/Untitled design.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
         </div>
 
       </div>
-    </section>
+  </section>
     
     <!-- End Strategy Section -->
 
 
     <!--Why Should Invest-->
 
-    <section id="contact" class="contact section-bg">
+  <section id="contact" class="contact section-bg">
       <div class="container" data-aos="fade-up">
           <div class="section-title">
               <h2>Tips and Why You Should Invest?</h2>
           </div> 
-          <div class="row">
+        <div class="row">
+
           <div class="col-lg-5 d-flex align-items-stretch">
             <div class="info">
               <h4 class="mb-4">Tips for Successful Investing: Building a Solid Foundation</h4>
@@ -170,8 +166,8 @@
                    Over time, these contributions can accumulate and significantly contribute to the growth of your portfolio.
                 </p>
               </div>
-            </div>
 
+            </div>
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
@@ -203,22 +199,16 @@
                        that your money works for you, allowing you to enjoy the golden years with peace of mind
                     </p>
                   </div>
-    
-                          </div>
-    
               </div>
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Tips Section -->
+  </section><!-- End Tips Section -->
 
 
-  <!-- ======= How can i invest Section ======= -->
-  <section id="skills" class="skills ">
+<!-- ======= How can i invest Section ======= -->
+<section id="skills" class="skills ">
       <div class="container" data-aos="fade-up">
-
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
             <img src="assets/img/skills.png" class="img-fluid" alt="">
@@ -226,36 +216,25 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>How can I Invest with Little Money?</h3>
             <p>
-                <ol ><li class="pt-3">
-                    Invest quarters at a time using a spare change app</li>
-                    <li class="pt-3">
-                        Set up small, monthly transfers from your checking account</li>
-                        <li class="pt-3">
-                            Use a low-cost investing service</li>
-                            <li class="pt-3">
-                                Immediately invest any tax returns</li>
-                                <li class="pt-3">
-                                    Invest any raises instead of altering your lifestyle</li>
-                              
+                <ol>
+                    <li class="pt-3">Invest quarters at a time using a spare change app</li>
+                    <li class="pt-3">Set up small, monthly transfers from your checking account</li>
+                    <li class="pt-3">Use a low-cost investing service</li>
+                    <li class="pt-3">Immediately invest any tax returns</li>
+                    <li class="pt-3">Invest any raises instead of altering your lifestyle</li>
                 </ol>
-     
             </p>
-
-        
           </div>
         </div>
-
       </div>
-    </section><!-- How can i investSection -->
+</section>
+<!--End of How can i investSection -->
 
+<!-- ======= 4 Type of Investment Section ======= -->
 
-
-
-
-  <!-- ======= 4 Type of Investment Section ======= -->
-  <section id="about" class="about section-bg">
+<section id="about" class="about section-bg">
     <div class="container" data-aos="fade-up">
-
+     
       <div class="section-title">
         <h2>4 Types of Investment for Beginners</h2>
       </div>
@@ -281,86 +260,97 @@
           
                           <div class="swiper-slide">
                               <img src="assets/img/portfolio/estate.jpg" alt="">
-                            </div>
+                          </div>
+
                         </div>
-              
                       </div>
-                </div>
-                <div class="col-lg-6">
+                  </div>
+
+                  <div class="col-lg-6">
                   <div class="portfolio-details-slider swiper">
                     <div class="swiper-wrapper align-items-center">
       
                       <div class="swiper-slide">
+
                           <div class="portfolio-info">
-                      
                             <div class="portfolio-description">
                               <h2>Stock</h2>
-                              <p>
-                                  Stocks or equities are shares of a company that you ideally buy low and sell higher. They also may generate income through dividends, or regular payouts of profits that some companies pay to shareholders. For example, when Facebook first went public in May 2012, you could buy shares for about $38 each. The company’s stock has skyrocketed since then, making it one of the most successful investments of this millennium.
+                              <p> Stocks or equities are shares of a company that you ideally buy low and sell higher. They also may generate income through dividends, or regular payouts of profits that some companies pay to shareholders. For example, when Facebook first went public in May 2012, you could buy shares for about $38 each. The company’s stock has skyrocketed since then, making it one of the most successful investments of this millennium.
                                   Remember: Not all companies offer dividends and stock values don't always go up. If share prices fall, you may wind up with stocks worth less than you paid for them.
                               </p>
                             </div>
                           </div>
+
                       </div>
       
                       <div class="swiper-slide">
+
                           <div class="portfolio-info">
-                      
                             <div class="portfolio-description">
                               <h2>Funds</h2>
-                              <p>
-                                  Investment funds are professionally managed pools of money or assets earmarked for a specific investing goal or objective and risk level, like matching the performance of the S&P 500® index. But past performance is no guarantee of future results.
-
-                                  Because they contain many component investments, funds spread your dollars across many different investments, helping to shield you from taking a big hit if a single investment slumps. The most common types of investment funds are mutual funds and exchange-traded funds (ETFs). Investment funds typically contain stocks, bonds, money markets, or a mix.</p>
+                              <p> Investment funds are professionally managed pools of money or assets earmarked for a specific 
+                                  investing goal or objective and risk level, like matching the performance of the S&P 500® index. But past performance is
+                                  no guarantee of future results. 
                               </p>
+                              <p> Because they contain many component investments, funds spread your dollars across many 
+                                  different investments, helping to shield you from taking a big hit if a single investment slumps. The most common types of 
+                                  investment funds are mutual funds and exchange-traded funds (ETFs). Investment funds typically contain stocks, bonds, money 
+                                  markets, or a mix.
+                              </p>
+                             
                             </div>
                           </div>
+
                       </div>
 
                       <div class="swiper-slide">
+
                           <div class="portfolio-info">
-                      
                             <div class="portfolio-description">
                               <h2>Bonds</h2>
-                              <p>
-                                  A bond is essentially a loan from an investor to a borrower. Borrowers may be anyone from federal and local governments to private companies. Investors generally expect to receive full repayment of the loan—plus interest—by the time the loan is due.
-
-                                  Bonds are typically a less risky investment than stocks but often have lower returns. Both factors depend in part on the borrower’s creditworthiness.
-                                  Some high-yield bonds can even have stock-like risk of loss. There are also bonds with lower interest rates that can offer tax advantages, such as municipal bonds or Treasury bonds. </p>
+                              <p> A bond is essentially a loan from an investor to a borrower. Borrowers may be anyone from federal and local governments 
+                                  to private companies. Investors generally expect to receive full repayment of the loan—plus interest—by the time the loan is due.
+                              </p>
+                              <p> Bonds are typically a less risky investment than stocks but often have lower returns. Both factors depend in part on the borrower’s 
+                                  creditworthiness.
+                                  Some high-yield bonds can even have stock-like risk of loss. There are also bonds with lower interest rates that can offer tax advantages, 
+                                  such as municipal bonds or Treasury bonds. 
+                              </p>
                             </div>
                           </div>
+
                       </div>
 
                       <div class="swiper-slide">
-                          <div class="portfolio-info">
-                      
+                         
+                        <div class="portfolio-info">
                             <div class="portfolio-description">
                               <h2>Real Estate</h2>
-                              <p> You can take your money and put it into a second home or an investment property. 
-                                Both types of investments can be rented out to recoup some or all of the money 
-                                you’re spending on the property for the year. 
-                                  Renting out multiple properties can help you achieve a compounding impact on 
-                                  your overall monthly income.
+                              <p> You can take your money and put it into a second home or an investment property. Both types of investments can be 
+                                  rented out to recoup some or all of the money you’re spending on the property for the year. Renting out multiple properties 
+                                  can help you achieve a compounding impact on your overall monthly income.
                               </p>
-                                 <p> While you can receive income from renting out multiple properties, the easiest investment 
-                                  in real estate for beginners is through holding the property and selling it 
-                                  for more than you bought it for down the road. If you choose the area of the property well 
-                                  then holding it as an asset for multiple years can mean a nice increase when you sell it one day.
-                                 </p>
-</div>
-</div>
-</div>
+                              <p> While you can receive income from renting out multiple properties, the easiest investment in real estate for beginners 
+                                  is through holding the property and selling it for more than you bought it for down the road. If you choose the area of 
+                                  the property well then holding it as an asset for multiple years can mean a nice increase when you sell it one day.
+                              </p>
+                            </div>
+                        </div>
+
+                      </div>
 
                     </div>
                     <div class="swiper-pagination"></div>
                   </div>
-        
+                  </div>
+              </div>
           </div>
-        </section>
+      </section>
      
     </div>
-  </section>  
-   <!-- End 4 Type Section -->
+</section>  
+
+<!-- End 4 Type Section -->
 
 
 >
@@ -371,78 +361,95 @@
 
       <div class="section-title">
         <h2>Investment Planning</h2>
-        <p>Investment planning is the process of identifying financial goals and converting them through building a plan. Investment planning is the main component of financial planning. The investment planning begins
-           with identification of goals and objectives. Then we need to match those goals with our available financial resources. </p>
+        <p>Investment planning is the process of identifying financial goals and converting them through building a plan. 
+           Investment planning is the main component of financial planning. The investment planning begins
+           with identification of goals and objectives. Then we need to match those goals with our available financial resources. 
+        </p>
       </div>
 
-      <div class="row">
-        <div class="col-xl-3 col-md-6 d-flex align-items-stretch " data-aos="zoom-in" data-aos-delay="100">
+      <div class="row mt-4 justify-content-around">
+        <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4 " data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-search"></i></div>
             <h4><a href="">Find when and how much you are saving</a></h4>
-            <p>This is the first step of investment planning. As soon as we are employed we should start saving. Whatever our salary is we should not spend all of it and start saving for our retirement and unforeseen emergencies.</p>
+            <p>This is the first step of investment planning. As soon as we are employed we should start saving. Whatever our salary is 
+               we should not spend all of it and start saving for our retirement and unforeseen emergencies.
+            </p>
           </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4 " data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-bullseye"></i></div>
             <h4><a href="">Set your financial goals</a></h4>
-            <p>We need to identify our short term as well as long term goals. This is how we start goal setting in investment planning. Our goals can be saving for a vacation or buying some gadget which we really want to own. This can be termed as short term goal as saving required for this is less than twelve months.</p>
+            <p>We need to identify our short term as well as long term goals. This is how we start goal setting in investment planning. 
+               Our goals can be saving for a vacation or buying some gadget which we really want to own. This can be termed as short term goal as 
+               saving required for this is less than twelve months.
+            </p>
           </div>
         </div>
-
-        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4 " data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-graph-up"></i></div>
             <h4><a href="">Analyse your risk taking ability</a></h4>
-            <p>We should know our risk taking appetite. If we have just start earning then our risk taking appetite is very less. We should invest in those investment vehicles which has less like fixed deposits.
-
-              People who have ample money to save, their risk taking appetite in more. They should invest in those investment products which have higher risk like investing in index stocks or mutual funds. </p>
+            <p>We should know our risk taking appetite. If we have just start earning then our risk taking appetite is very less. 
+               We should invest in those investment vehicles which has less like fixed deposits. People who have ample money to save, their risk 
+               taking appetite in more. They should invest in those investment products which have higher risk like investing in index stocks or mutual funds. 
+            </p>
           </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+        <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-layer"></i></div>
             <h4><a href="">Create a savings portfolio</a></h4>
             <p>One should have a diversified portfolio which should include many investment vehicles such as stocks, gold, bonds, fixed deposit, real estate etc.
-
-              The main purpose to have a diversify portfolio is to diversify the risk associated with investment vehicles. Some investment tools may be less liquated than other.</p>
+               The main purpose to have a diversify portfolio is to diversify the risk associated with investment vehicles. Some investment tools may be less 
+               liquated than other.
+            </p>
           </div>
         </div>
-
+      
       </div>
+   
 
 
-
-      <div class="row mt-4 justify-content-around">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row justify-content-around">
+          <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-book"></i></div>
               <h4><a href="">Learn about all investment options</a></h4>
               <p>Before we start investing in we need to learn about all the investment options available in the financial market. 
-                  We need to go through all the investment vehicles such stocks, bonds, gold, real estate, life insurance etch and compare the rate of returns and risks associated with it.
-                   It will help us in putting our money in the investment vehicle according our financial condition and risk taking appetite.   </p> </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-calculator"></i></div>
-              <h4><a href=""> Calculate your asset allocation</a></h4>
-              <p>After determining the risk return portfolio the investor can develop our asset allocation strategy in investment planning. The investor can select from the various 
-                  asset classes available in the financial market and allocate assets in such a way that it achieves optimum diversification while targeting the expected returns.
-</p>
+                 We need to go through all the investment vehicles such stocks, bonds, gold, real estate, life insurance etch and compare 
+                 the rate of returns and risks associated with it. It will help us in putting our money in the investment vehicle according
+                 our financial condition and risk taking appetite.  
+              </p> 
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-calculator"></i></div>
+              <h4><a href=""> Calculate your asset allocation</a></h4>
+              <p>After determining the risk return portfolio the investor can develop our asset allocation strategy in investment planning. 
+                 The investor can select from the various asset classes available in the financial market and allocate assets in such a way 
+                 that it achieves optimum diversification while targeting the expected returns.
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="row justify-content-around">
+          <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-person-workspace"></i></div>
               <h4><a href="">Know how to build your portfolio</a></h4>
-              <p>The most important step in investment planning is implementing the portfolio plan. After we implement our portfolio plan the management process begins. It is necessarily 
-                  to monitor the investment performance regularly, mostly quarterly and review the portfolio plan annually. The investor’s goals and situations should be reviewed once a
-                  year to determine whether there are any significant changes.</p>   </div>
+              <p>The most important step in investment planning is implementing the portfolio plan. After we implement our portfolio plan the management 
+                 process begins. It is necessarily to monitor the investment performance regularly, mostly quarterly and review the portfolio plan annually. 
+                 The investor’s goals and situations should be reviewed once a year to determine whether there are any significant changes.
+              </p>   
+            </div>
           </div>
 
      
