@@ -1,18 +1,16 @@
-<section id="hero" class="d-flex align-items-center">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Unlock Your Financial Future:</h1>
-          <h2>Investing for Beginners</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="https://www.youtube.com/embed/u4Adtp04JxI?si=n1ZzzdXxTQUdKbwN" class="btn-get-started glightbox ">Get Started</a>
+<section class="section bg-home home-five align-items-center d-flex" id="home">
+  <div class="bg-overlay"></div>       <div class="container slidero">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-9">
+              <div class="text-center text-white">
+                  <h1 class="mb-0"> Unlock Your Financial Future:</h1>
+                  <h3 class="mt-4">Investing for Beginners</h3>
+                  <div class="home-border my-3 mt-4"></div>
+              <p class="h6 mt-4">Never depends on a single income, Make investment to create a second source</p>
+                
+              </div>
           </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
       </div>
-    </div>
-
-</section>
+  </div></div>
+</section> 

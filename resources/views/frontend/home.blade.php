@@ -2,10 +2,142 @@
 @section('content')
 
 <main id="main">
+<!-- Tips Investing ---->
+<div class="about-area ptb-100">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="mr-3 col-lg-5 mr-3">
+              <div class="about-image">
+                  <img src="asset/img/invest3.png" alt="Image">
+              </div>
+          </div>
+
+          <div class="col-lg-7">
+              <div class="about-text">
+                  <div class="section-title">
+                      <h2>Tips for Successful Investing: Building a Solid Foundation</h2>
+                  </div>
+
+                  <div class="row mt-2 mb-2">
+                      <div class="col-lg-12">
+                          <ul>
+                              <li>
+                                  <i class="las la-check-square"></i>
+                                   Stay Informed
+                              </li>
+                                  <p>Successful investors stay abreast of market trends, economic developments, 
+                                     and changes in the financial landscape.
+                                  </p>
+                                  <p class="mb-4">Regularly update your knowledge through reputable sources, financial news, and 
+                                     educational materials. Informed decisions are the bedrock of a resilient investment strategy.
+                                  </p>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="row mt-2 mb-2">
+                    <div class="col-lg-12">
+                        <ul>
+                            <li>
+                                <i class="las la-check-square"></i>
+                                Start Small, Consistent Contributions:
+                            </li>
+                                <p>Begin your investment journey with manageable amounts and commit to consistent contributions.
+                                </p>
+                                <p class="mb-4">Whether it's monthly or quarterly, regular investing, even in modest amounts, harnesses the power 
+                                   of compounding. Over time, these contributions can accumulate and significantly contribute to the 
+                                   growth of your portfolio.
+                                </p>
+
+                        </ul>
+                    </div>
+                  </div>
+
+                  <div class="row mt-2 mb-2">
+    
+                  <div class="col-lg-12">
+                      <ul>
+                        <li>
+                          <i class="las la-check-square"></i>
+                          Think Long-Term:
+                        </li>
+                          <p>Investing is a marathon, not a sprint. Embrace a patient mindset and 
+                             focus on the long-term horizon.
+                          </p>
+                          <p class="mb-4">Short-term market fluctuations are inevitable, but a well-thought-out strategy, grounded in 
+                             your financial objectives, can weather the storms and capitalize on the growth potential of 
+                             your investments over time.
+                          </p>
+                      </ul>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--End of Tips Investing --->
+
+<!--Why Invest -->
+<div class="choose-area ptb-100 section-bg">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="choose-text">
+                  <div class="section-title">
+                  
+                      <h2>Why Invest? </h2>
+                      <p>Unlock Your Financial Potential</p>
+                  </div>
+                  
+                  <div class="choose-card">
+                      <i class="bi bi-bank2"></i>
+                      <h3>Wealth Building:</h3>
+                      <p>Investing allows you to grow your wealth over time. Instead of letting your money sit idle, strategic investments in stocks, bonds, or other vehicles 
+                         have the potential to generate returns, helping you build a solid financial foundation for the future.</p>
+                  </div>
+
+                  <div class="choose-card">
+                      <i class="bi bi-file-earmark-lock"></i>
+                      <h3>Financial Security:</h3>
+                      <p>Investing provides a pathway to financial security. Diversifying your assets across different investment options helps mitigate risks and protect your financial well-being. 
+                         By cultivating a well-balanced portfolio, you can weather economic uncertainties and safeguard your financial stability.</p>
+                  </div>
+
+                  <div class="choose-card">
+                      <i class="bi bi-people-fill"></i>
+                      <h3>Retirement Planning:</h3>
+                      <p>Investing is a crucial component of retirement planning. As you contribute to retirement accounts and watch your investments grow, you're actively shaping a comfortable and 
+                         secure retirement. The power of compounding ensures that your money works for you, allowing you to enjoy the golden years with peace of mind</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-lg-6">
+              <div class="choose-img">
+                  <div class="d-table">
+                      <div class="d-table-cell">
+                          <div class="video-box">
+                              <a href="https://www.youtube.com/watch?v=udfEG48f8UE" class="video-btn popup-youtube">
+                                  <i class="las la-play"></i>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--End of Why Invest ---->
+
+
 
 
   <!-- ======= what to consider Section ======= -->
-  <section id="team" class="team section-bg">
+  <section id="team" class="team skills">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>What to consider before you invest</h2>
@@ -125,85 +257,6 @@
     <!-- End Strategy Section -->
 
 
-    <!--Why Should Invest-->
-
-  <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
-          <div class="section-title">
-              <h2>Tips and Why You Should Invest?</h2>
-          </div> 
-        <div class="row">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <h4 class="mb-4">Tips for Successful Investing: Building a Solid Foundation</h4>
-              <div class="name">
-                <i class="bi bi-info-circle"></i>
-                <h4>Stay Informed</h4>
-                <p>Successful investors stay abreast of market trends, economic developments, and changes in the financial landscape.
-                </p>
-                <p>Regularly update your knowledge through reputable sources, financial news, and educational materials.
-                   Informed decisions are the bedrock of a resilient investment strategy.
-                </p>
-              </div>
-
-              <div class="name">
-                <i class="bi bi-calendar-date"></i>
-                <h4>Think Long-Term:</h4>
-                <p>Investing is a marathon, not a sprint. Embrace a patient mindset and focus on the long-term horizon. 
-                </p>
-                <p> Short-term market fluctuations are inevitable, but a well-thought-out strategy, grounded in your financial objectives, 
-                    can weather the storms and capitalize on the growth potential of your investments over time.
-                </p>
-              </div>
-
-              <div class="name">
-                <i class="bi bi-bar-chart-fill"></i>
-                <h4>Start Small, Consistent Contributions:</h4>
-                <p>Begin your investment journey with manageable amounts and commit to consistent contributions. 
-                </p>
-                <p>Whether it's monthly or quarterly, regular investing, even in modest amounts, harnesses the power of compounding. 
-                   Over time, these contributions can accumulate and significantly contribute to the growth of your portfolio.
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <div class="info">
-                  <h4 class="mb-4"> Why Invest? Unlock Your Financial Potential</h4>
-                  <div class="name mt-4">
-                    <i class="bi bi-bank2"></i>
-                    <h4> Wealth Building:</h4>
-                    <p>Investing allows you to grow your wealth over time. 
-                       Instead of letting your money sit idle, strategic investments in stocks, 
-                       bonds, or other vehicles have the potential to generate returns, helping you build a solid financial foundation for the future.
-                    </p>
-                  </div>
-    
-                  <div class="name">
-                    <i class="bi bi-file-earmark-lock"></i>
-                    <h4>Financial Security:</h4>
-                    <p>Investing provides a pathway to financial security. Diversifying your assets across different investment options helps mitigate risks 
-                       and protect your financial well-being. By cultivating a well-balanced portfolio, you can weather economic uncertainties and safeguard 
-                       your financial stability.
-                    </p>
-                  </div>
-    
-                  <div class="name">
-                    <i class="bi bi-people-fill"></i>
-                    <h4>Retirement Planning:</h4>
-                    <p>Investing is a crucial component of retirement planning. As you contribute to retirement accounts and watch your 
-                       investments grow, you're actively shaping a comfortable and secure retirement. The power of compounding ensures
-                       that your money works for you, allowing you to enjoy the golden years with peace of mind
-                    </p>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </div>
-  </section><!-- End Tips Section -->
 
 
 <!-- ======= How can i invest Section ======= -->
@@ -229,6 +282,173 @@
       </div>
 </section>
 <!--End of How can i investSection -->
+
+<!--4 Types of Investment 1 Section-->
+<div class="hero-slider hero-slider-two owl-carousel owl-theme">
+  <div class="hero-slider-item item-bg4">
+      <div class="d-table">
+          <div class="d-table-cell">
+              <div class="container">
+                  <div class="slider-content">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <span>4 Types of Investment for Beginners</span>
+                              <h1>Stock</h1>
+                              <p>Stocks or equities are shares of a company that you ideally buy low and sell higher. They also may generate income through dividends, or regular payouts of profits 
+                                that some companies pay to shareholders. For example, when Facebook first went public in May 2012, you could buy shares for about $38 each. The company’s stock has skyrocketed since then, 
+                                making it one of the most successful investments of this millennium.</p>
+
+                              <p>Remember: Not all companies offer dividends and stock values don't always go up. If share prices fall, you may wind up with stocks worth less than you paid for them.</p>
+                            
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="slider-image">
+                                  <img src="asset/img/hero-slider/stocksm.png" alt="Image">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="hero-slider-item item-bg5">
+      <div class="d-table">
+          <div class="d-table-cell">
+              <div class="container">
+                  <div class="slider-content">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <span>4 Types of Investment for Beginners</span>
+                              <h1>Funds</h1>
+                              <p>Investment funds are professionally managed pools of money or assets earmarked for a specific 
+                                 investing goal or objective and risk level, like matching the performance of the S&P 500® index. But past performance is
+                                 no guarantee of future results. 
+                              </p>
+                              <p> Because they contain many component investments, funds spread your dollars across many 
+                                different investments, helping to shield you from taking a big hit if a single investment slumps. The most common types of 
+                                investment funds are mutual funds and exchange-traded funds (ETFs). Investment funds typically contain stocks, bonds, money 
+                                markets, or a mix.
+                              </p>
+                        
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="slider-image">
+                                  <img src="asset/img/hero-slider/fundsm.png" alt="Image">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="hero-slider-item item-bg6">
+      <div class="d-table">
+          <div class="d-table-cell">
+              <div class="container">
+                  <div class="slider-content">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <span>4 Types of Investment for Beginners</span>
+                              <h1>Bonds</h1>
+                              <p> A bond is essentially a loan from an investor to a borrower. Borrowers may be anyone from federal and local governments 
+                                 to private companies. Investors generally expect to receive full repayment of the loan—plus interest—by the time the loan is due.
+                              </p>
+                              <p> Bonds are typically a less risky investment than stocks but often have lower returns. Both factors depend in part on the borrower’s 
+                                  creditworthiness.Some high-yield bonds can even have stock-like risk of loss. There are also bonds with lower interest rates that can offer 
+                                  tax advantages,such as municipal bonds or Treasury bonds. 
+                              </p>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="slider-image">
+                                  <img src="asset/img/hero-slider/bondsm.png" alt="Image">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="hero-slider-item item-bg3">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <span>4 Types of Investment for Beginners</span>
+                            <h1>Real Estate</h1>
+                            <p> You can take your money and put it into a second home or an investment property. Both types of investments can be 
+                              rented out to recoup some or all of the money you’re spending on the property for the year. Renting out multiple properties 
+                              can help you achieve a compounding impact on your overall monthly income.
+                            </p>
+                            <p> While you can receive income from renting out multiple properties, the easiest investment in real estate for beginners 
+                              is through holding the property and selling it for more than you bought it for down the road. If you choose the area of 
+                              the property well then holding it as an asset for multiple years can mean a nice increase when you sell it one day.
+                            </p>   
+                      
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="slider-image">
+                                <img src="asset/img/hero-slider/estatesm.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="low-card-area-two">
+  <div class="container">
+      <div class="low-card-contant">
+          <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                  <div class="low-card-two">
+                      <i class="lab la-gitkraken"></i>
+                      <h3>Wills, Trust & Probate</h3>
+                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a.</p>
+                      <div class="low-shape">
+                          <img src="assets/img/shape1.png" alt="Shape">
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                  <div class="low-card-two">
+                      <i class="las la-user-tie"></i>
+                      <h3>Request A Lawyer</h3>
+                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a.</p>
+                      <div class="low-shape">
+                          <img src="assets/img/shape1.png" alt="Shape">
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+                  <div class="low-card-two">
+                      <i class="las la-screwdriver"></i>
+                      <h3>Legal Protection</h3>
+                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a.</p>
+                      <div class="low-shape">
+                          <img src="assets/img/shape1.png" alt="Shape">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--End of 4 Types of Investment 1 Section-->
+
 
 <!-- ======= 4 Type of Investment Section ======= -->
 
@@ -616,6 +836,7 @@
           });
      
   </script> 
+ 
 
 </main>
 
