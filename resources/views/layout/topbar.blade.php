@@ -6,8 +6,7 @@
           <h1>Unlock Your Financial Future:</h1>
           <h2>Investing for Beginners</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="https://www.youtube.com/embed/u4Adtp04JxI?si=n1ZzzdXxTQUdKbwN" class="btn-get-started scrollto">Get Started</a>
-          
+            <a href="https://www.youtube.com/embed/u4Adtp04JxI?si=n1ZzzdXxTQUdKbwN" class="btn-get-started glightbox ">Get Started</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">

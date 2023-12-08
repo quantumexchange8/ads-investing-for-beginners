@@ -42,7 +42,6 @@
 
     <!-- Header part-->
     @include('layout.topbar')
-
     @yield('content')
 
   <div id="preloader"></div>
