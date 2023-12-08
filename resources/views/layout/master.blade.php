@@ -40,7 +40,7 @@
   <!-- Stylesheet Responsive CSS -->
   <link rel="stylesheet" href="asset/css/responsive.css">
   <!-- Theme Dark CSS -->
-  <link rel="stylesheet" href="asset/css/theme-dark.css">
+ 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
