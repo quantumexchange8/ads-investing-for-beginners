@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('page.master')
 @section('content')
 
 <main id="main">
@@ -7,29 +7,30 @@
   <!-- ======= what to consider Section ======= -->
   <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>What to consider before you invest</h2>
-             </div>
-
+        </div>
         <div class="row">
-
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
-              <div class="services">  <a href=""><i class="bi bi-currency-dollar"></i></a> </div>
+              <div class="services">  
+                <a href=""><i class="bi bi-currency-dollar"></i></a> 
+            </div>
               <div class="member-info">
                 <h4>Do you have a lot of credit card debt?</h4>
-               
-                <p class="mt-2">If the answer is yes, you’re probably not in a position to invest quite yet. First, do everything you can do to erase that debt, because no investment you’ll find will consistently outperform the 14% or so APR that you’re likely forking over to a credit card company to service your debt. Here’s a good place to start plotting your debt’s annihilation.</p>
-                   
-       
+                <p class="mt-2">If the answer is yes, you’re probably not in a position to invest quite yet. 
+                                First, do everything you can do to erase that debt, because no investment you’ll 
+                                find will consistently outperform the 14% or so APR that you’re likely forking over to a credit 
+                                card company to service your debt. Here’s a good place to start plotting your debt’s annihilation.
+                </p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="services">  <a href=""><i class="bi bi-piggy-bank"></i></a> </div>
+              <div class="services">  <a href=""><i class="bi bi-piggy-bank"></i></a> 
+              </div>
               <div class="member-info">
                 <h4>Do you have an emergency fund?</h4>
      
@@ -37,19 +38,15 @@
                   ways in which your life can be turned upside down. Any financial advisor will tell you that in order to avoid total 
                   ruin you should have between six months and a year of total living expenses in cash, or in a savings account should the unthinkable happen. 
                   If you don’t, bookmark this article, start saving, and come back just as soon as you’ve got that emergency fund squared away.
-
-             </p>
-           
+                </p>
               </div>
             </div>
           </div>
-
-      
         </div>
-
       </div>
     </section>
     <!-- End what to consider Section -->
+
 
   <!-- ======= Strategies Section ======= -->
   <section id="why-us" class="why-us cta">
@@ -67,51 +64,56 @@
             <div class="accordion-list">
               <ul>
                 <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Financial Advisor : <strong>Hands-off investments managed by a human</strong> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">
+                    <span>01</span> Financial Advisor : <strong>Hands-off investments managed by a human</strong> 
+                    <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
+                  </a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
-                      If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services — sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.</p>
-                      <p>With this strategy, a financial advisor builds and manages your investments on your behalf.
-
+                      If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services — 
+                      sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.
+                    </p>
+                    <p>With this strategy, a financial advisor builds and manages your investments on your behalf.
                       This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
-               
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Robo-Advisor : <strong>Hands-off investments managed by an algorithm</strong> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">
+                    <span>02</span> Robo-Advisor : <strong>Hands-off investments managed by an algorithm</strong> 
+                    <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
+                  </a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      Some brokerages offer access to an automated investment service called a robo-advisor. Despite the name, this service isn’t administered by a robot, but it is made possible by sophisticated investment algorithms.<p>
-                      </p>
-                      <p>
-                          Here’s how it works:
-      <ol class="content pt-2" >
-                                     <li> First, you fill out an online application to open an account.
-                                      <li>  Next, you answer a series of questions about your financial goals and how much risk you’re willing to take with your investments.</li>
-                                          <li> Then, the robo-advisor puts together a portfolio on your behalf based on your questionnaire responses.</li>
-                                              <li> The robo-advisor uses complex algorithms to monitor your account, moving investments in and out of your portfolio according to your financial goals. This technique is called portfolio rebalancing.</li>
-                                              </ol></p><p > This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>
-            
-                      </p>
+                    <p> Some brokerages offer access to an automated investment service called a robo-advisor. Despite the name, this service 
+                        isn’t administered by a robot, but it is made possible by sophisticated investment algorithms.
+                    </p>
+                    <p> Here’s how it works:
+                    <ol class="content pt-2" >
+                          <li> First, you fill out an online application to open an account.</li>
+                          <li> Next, you answer a series of questions about your financial goals and how much risk you’re willing to take with your investments.</li>
+                          <li> Then, the robo-advisor puts together a portfolio on your behalf based on your questionnaire responses.</li>
+                          <li> The robo-advisor uses complex algorithms to monitor your account, moving investments in and out of your portfolio according to your 
+                               financial goals. This technique is called portfolio rebalancing.</li>
+                    </ol>
+                    </p>
+                    <p> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>Self-Directed : <strong>Pick your own investments</strong>  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">
+                    <span>03</span>Self-Directed : <strong>Pick your own investments</strong> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
+                  </a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                      <p>
-                      For those that want full control over the investing process, 
-                      self-directed investing, or DIY investing, may be the best way to go. 
-                      This approach involves opening an account with an investment brokerage and putting 
-                      together a portfolio of your choosing. You’ll also be solely responsible for monitoring your 
-                      investments and making adjustments over time as needed.
-
-                  </p>
-                      <p>This strategy is best for investors who want to manage their investments
-                           firsthand and don’t mind the extra homework that often comes with managing a portfolio solo. </p>
-              </div>
+                      <p>  For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go. 
+                           This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing. 
+                           You’ll also be solely responsible for monitoring your investments and making adjustments over time as needed.
+                     </p>
+                      <p>This strategy is best for investors who want to manage their investments firsthand and don’t mind the extra homework 
+                         that often comes with managing a portfolio solo. 
+                     </p>
+                  </div>
                 </li>
 
               </ul>
@@ -123,46 +125,52 @@
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
+    </section>
+    
+    <!-- End Strategy Section -->
+
+
+    <!--Why Should Invest-->
+
     <section id="contact" class="contact section-bg">
       <div class="container" data-aos="fade-up">
-
-  
           <div class="section-title">
               <h2>Tips and Why You Should Invest?</h2>
-            </div>
-
-        <div class="row">
-
+          </div> 
+          <div class="row">
           <div class="col-lg-5 d-flex align-items-stretch">
             <div class="info">
-              <h4 class="mb-4">
-                  Tips for Successful Investing: Building a Solid Foundation</h4>
+              <h4 class="mb-4">Tips for Successful Investing: Building a Solid Foundation</h4>
               <div class="name">
                 <i class="bi bi-info-circle"></i>
                 <h4>Stay Informed</h4>
-                <p>Successful investors stay abreast of market trends, economic developments, and changes in the financial landscape. </p>
-                  <p>Regularly update your knowledge through reputable sources, financial news, and educational materials.
-                       Informed decisions are the bedrock of a resilient investment strategy.</p>
+                <p>Successful investors stay abreast of market trends, economic developments, and changes in the financial landscape.
+                </p>
+                <p>Regularly update your knowledge through reputable sources, financial news, and educational materials.
+                   Informed decisions are the bedrock of a resilient investment strategy.
+                </p>
               </div>
 
               <div class="name">
                 <i class="bi bi-calendar-date"></i>
                 <h4>Think Long-Term:</h4>
-                <p>Investing is a marathon, not a sprint. Embrace a patient mindset and focus on the long-term horizon. </p>
-                <p>  Short-term market fluctuations are inevitable, but a well-thought-out strategy, grounded in your financial objectives, 
-                  can weather the storms and capitalize on the growth potential of your investments over time.</p>
+                <p>Investing is a marathon, not a sprint. Embrace a patient mindset and focus on the long-term horizon. 
+                </p>
+                <p> Short-term market fluctuations are inevitable, but a well-thought-out strategy, grounded in your financial objectives, 
+                    can weather the storms and capitalize on the growth potential of your investments over time.
+                </p>
               </div>
 
               <div class="name">
                 <i class="bi bi-bar-chart-fill"></i>
                 <h4>Start Small, Consistent Contributions:</h4>
-                <p>Begin your investment journey with manageable amounts and commit to consistent contributions. </p>
-                  <p>Whether it's monthly or quarterly, regular investing, even in modest amounts, harnesses the power of compounding. 
-                      Over time, these contributions can accumulate and significantly contribute to the growth of your portfolio.</p>
+                <p>Begin your investment journey with manageable amounts and commit to consistent contributions. 
+                </p>
+                <p>Whether it's monthly or quarterly, regular investing, even in modest amounts, harnesses the power of compounding. 
+                   Over time, these contributions can accumulate and significantly contribute to the growth of your portfolio.
+                </p>
               </div>
-
-                      </div>
+            </div>
 
           </div>
 
@@ -173,23 +181,27 @@
                     <i class="bi bi-bank2"></i>
                     <h4> Wealth Building:</h4>
                     <p>Investing allows you to grow your wealth over time. 
-                      Instead of letting your money sit idle, strategic investments in stocks, 
-                      bonds, or other vehicles have the potential to generate returns, helping you build a solid financial foundation for the future.</p>
+                       Instead of letting your money sit idle, strategic investments in stocks, 
+                       bonds, or other vehicles have the potential to generate returns, helping you build a solid financial foundation for the future.
+                    </p>
                   </div>
     
                   <div class="name">
                     <i class="bi bi-file-earmark-lock"></i>
                     <h4>Financial Security:</h4>
                     <p>Investing provides a pathway to financial security. Diversifying your assets across different investment options helps mitigate risks 
-                      and protect your financial well-being. By cultivating a well-balanced portfolio, you can weather economic uncertainties and safeguard your financial stability.</p>
+                       and protect your financial well-being. By cultivating a well-balanced portfolio, you can weather economic uncertainties and safeguard 
+                       your financial stability.
+                    </p>
                   </div>
     
                   <div class="name">
                     <i class="bi bi-people-fill"></i>
                     <h4>Retirement Planning:</h4>
                     <p>Investing is a crucial component of retirement planning. As you contribute to retirement accounts and watch your 
-                      investments grow, you're actively shaping a comfortable and secure retirement. The power of compounding ensures
-                       that your money works for you, allowing you to enjoy the golden years with peace of mind</p>
+                       investments grow, you're actively shaping a comfortable and secure retirement. The power of compounding ensures
+                       that your money works for you, allowing you to enjoy the golden years with peace of mind
+                    </p>
                   </div>
     
                           </div>
