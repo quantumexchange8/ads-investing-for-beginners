@@ -283,7 +283,7 @@
 </section>
 <!--End of How can i investSection -->
 
-<!--4 Types of Investment 1 Section-->
+<!--Types of Investment 1 Section-->
 <div class="hero-slider hero-slider-two owl-carousel owl-theme">
   <div class="hero-slider-item item-bg4">
       <div class="d-table">
@@ -292,7 +292,7 @@
                   <div class="slider-content">
                       <div class="row">
                           <div class="col-lg-6">
-                              <span>4 Types of Investment for Beginners</span>
+                              <span>Types of Investment for Beginners</span>
                               <h1>Stock</h1>
                               <p>Stocks or equities are shares of a company that you ideally buy low and sell higher. They also may generate income through dividends, or regular payouts of profits 
                                 that some companies pay to shareholders. For example, when Facebook first went public in May 2012, you could buy shares for about $38 each. The company’s stock has skyrocketed since then, 
@@ -313,37 +313,6 @@
       </div>
   </div>
 
-  <div class="hero-slider-item item-bg5">
-      <div class="d-table">
-          <div class="d-table-cell">
-              <div class="container">
-                  <div class="slider-content">
-                      <div class="row">
-                          <div class="col-lg-6">
-                              <span>4 Types of Investment for Beginners</span>
-                              <h1>Funds</h1>
-                              <p>Investment funds are professionally managed pools of money or assets earmarked for a specific 
-                                 investing goal or objective and risk level, like matching the performance of the S&P 500® index. But past performance is
-                                 no guarantee of future results. 
-                              </p>
-                              <p> Because they contain many component investments, funds spread your dollars across many 
-                                different investments, helping to shield you from taking a big hit if a single investment slumps. The most common types of 
-                                investment funds are mutual funds and exchange-traded funds (ETFs). Investment funds typically contain stocks, bonds, money 
-                                markets, or a mix.
-                              </p>
-                        
-                          </div>
-                          <div class="col-lg-6">
-                              <div class="slider-image">
-                                  <img src="asset/img/hero-slider/fundsm.png" alt="Image">
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
 
   <div class="hero-slider-item item-bg6">
       <div class="d-table">
@@ -352,7 +321,7 @@
                   <div class="slider-content">
                       <div class="row">
                           <div class="col-lg-6">
-                              <span>4 Types of Investment for Beginners</span>
+                              <span>Types of Investment for Beginners</span>
                               <h1>Bonds</h1>
                               <p> A bond is essentially a loan from an investor to a borrower. Borrowers may be anyone from federal and local governments 
                                  to private companies. Investors generally expect to receive full repayment of the loan—plus interest—by the time the loan is due.
@@ -381,7 +350,7 @@
                 <div class="slider-content">
                     <div class="row">
                         <div class="col-lg-6">
-                            <span>4 Types of Investment for Beginners</span>
+                            <span>Types of Investment for Beginners</span>
                             <h1>Real Estate</h1>
                             <p> You can take your money and put it into a second home or an investment property. Both types of investments can be 
                               rented out to recoup some or all of the money you’re spending on the property for the year. Renting out multiple properties 
@@ -410,38 +379,34 @@
   <div class="container">
       <div class="low-card-contant">
           <div class="row">
-              <div class="col-lg-4 col-sm-6">
-                  <div class="low-card-two">
-                      <i class="lab la-gitkraken"></i>
-                      <h3>Wills, Trust & Probate</h3>
-                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a.</p>
-                      <div class="low-shape">
-                          <img src="assets/img/shape1.png" alt="Shape">
-                      </div>
-                  </div>
+            <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div class="low-card-two">
+                  <i class="bi bi-bar-chart-line"></i>
+                  <h3>Stock</h3>
+                  <p>Dividends are another way stocks can earn you money. Depending on the company, it will pay out a part of its earnings per share, often four times a year, 
+                     according to a set schedule.</p>
               </div>
+            </div>
 
-              <div class="col-lg-4 col-sm-6">
-                  <div class="low-card-two">
-                      <i class="las la-user-tie"></i>
-                      <h3>Request A Lawyer</h3>
-                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a.</p>
-                      <div class="low-shape">
-                          <img src="assets/img/shape1.png" alt="Shape">
-                      </div>
-                  </div>
+         
+            <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div class="low-card-two">
+                  <i class="bi bi-briefcase-fill"></i>
+                  <h3>Bonds</h3>
+                  <p>any financial planners advocate investing in bonds because of their lower volatility and relative safety compared with stocks.
+                     But not all bonds are equal, and investors need some strategies for investing in bonds and building their bond allocation the right way.</p>
               </div>
+            </div>
 
-              <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-                  <div class="low-card-two">
-                      <i class="las la-screwdriver"></i>
-                      <h3>Legal Protection</h3>
-                      <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a.</p>
-                      <div class="low-shape">
-                          <img src="assets/img/shape1.png" alt="Shape">
-                      </div>
-                  </div>
+            <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div class="low-card-two">
+                  <i class="bi bi-building"></i>
+                  <h3>Estate</h3>
+                  <p>real estate investing offers numerous tax advantages, including deductions for operating costs and depreciation and the potential to defer 
+                     capital gains taxes through like-kind exchanges or investing in real estate investment trusts (REITs).</p>
               </div>
+            </div>
+
           </div>
       </div>
   </div>
@@ -450,130 +415,9 @@
 <!--End of 4 Types of Investment 1 Section-->
 
 
-<!-- ======= 4 Type of Investment Section ======= -->
-
-<section id="about" class="about section-bg">
-    <div class="container" data-aos="fade-up">
-     
-      <div class="section-title">
-        <h2>4 Types of Investment for Beginners</h2>
-      </div>
-      <section id="portfolio-details" class="portfolio-details">
-          <div class="container">
-              <div class="row gy-4">
-
-                  <div class="col-lg-6">
-                      <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-          
-                          <div class="swiper-slide">
-                            <img src="assets/img/portfolio/blog1.jpg" alt="">
-                          </div>
-          
-                          <div class="swiper-slide">
-                            <img src="assets/img/portfolio/fund.jpg" alt="">
-                          </div>
-          
-                          <div class="swiper-slide">
-                            <img src="assets/img/portfolio/business.jpg" alt="">
-                          </div>
-          
-                          <div class="swiper-slide">
-                              <img src="assets/img/portfolio/estate.jpg" alt="">
-                          </div>
-
-                        </div>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-6">
-                  <div class="portfolio-details-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-      
-                      <div class="swiper-slide">
-
-                          <div class="portfolio-info">
-                            <div class="portfolio-description">
-                              <h2>Stock</h2>
-                              <p> Stocks or equities are shares of a company that you ideally buy low and sell higher. They also may generate income through dividends, or regular payouts of profits that some companies pay to shareholders. For example, when Facebook first went public in May 2012, you could buy shares for about $38 each. The company’s stock has skyrocketed since then, making it one of the most successful investments of this millennium.
-                                  Remember: Not all companies offer dividends and stock values don't always go up. If share prices fall, you may wind up with stocks worth less than you paid for them.
-                              </p>
-                            </div>
-                          </div>
-
-                      </div>
-      
-                      <div class="swiper-slide">
-
-                          <div class="portfolio-info">
-                            <div class="portfolio-description">
-                              <h2>Funds</h2>
-                              <p> Investment funds are professionally managed pools of money or assets earmarked for a specific 
-                                  investing goal or objective and risk level, like matching the performance of the S&P 500® index. But past performance is
-                                  no guarantee of future results. 
-                              </p>
-                              <p> Because they contain many component investments, funds spread your dollars across many 
-                                  different investments, helping to shield you from taking a big hit if a single investment slumps. The most common types of 
-                                  investment funds are mutual funds and exchange-traded funds (ETFs). Investment funds typically contain stocks, bonds, money 
-                                  markets, or a mix.
-                              </p>
-                             
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div class="swiper-slide">
-
-                          <div class="portfolio-info">
-                            <div class="portfolio-description">
-                              <h2>Bonds</h2>
-                              <p> A bond is essentially a loan from an investor to a borrower. Borrowers may be anyone from federal and local governments 
-                                  to private companies. Investors generally expect to receive full repayment of the loan—plus interest—by the time the loan is due.
-                              </p>
-                              <p> Bonds are typically a less risky investment than stocks but often have lower returns. Both factors depend in part on the borrower’s 
-                                  creditworthiness.
-                                  Some high-yield bonds can even have stock-like risk of loss. There are also bonds with lower interest rates that can offer tax advantages, 
-                                  such as municipal bonds or Treasury bonds. 
-                              </p>
-                            </div>
-                          </div>
-
-                      </div>
-
-                      <div class="swiper-slide">
-                         
-                        <div class="portfolio-info">
-                            <div class="portfolio-description">
-                              <h2>Real Estate</h2>
-                              <p> You can take your money and put it into a second home or an investment property. Both types of investments can be 
-                                  rented out to recoup some or all of the money you’re spending on the property for the year. Renting out multiple properties 
-                                  can help you achieve a compounding impact on your overall monthly income.
-                              </p>
-                              <p> While you can receive income from renting out multiple properties, the easiest investment in real estate for beginners 
-                                  is through holding the property and selling it for more than you bought it for down the road. If you choose the area of 
-                                  the property well then holding it as an asset for multiple years can mean a nice increase when you sell it one day.
-                              </p>
-                            </div>
-                        </div>
-
-                      </div>
-
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-     
-    </div>
-</section>  
-
-<!-- End 4 Type Section -->
 
 
->
+
 
   <!-- ======= invest plan Section ======= -->
   <section id="services" class="services ">

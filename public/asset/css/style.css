@@ -1118,7 +1118,7 @@ Hero Slider Area
 .hero-slider .hero-slider-item .slider-content span::before {
   content: '';
   position: absolute;
-  background-color: #c8242f;
+  background-color: white;
   width: 85px;
   height: 2px;
   left: 0;
@@ -1149,8 +1149,8 @@ Hero Slider Area
   position: absolute;
   left: 10px;
   top: 55%;
-  background: #c8242f;
-  color: #ffffff;
+  background: #ffffff;
+  color: rgb(24, 53, 87);
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1160,7 +1160,8 @@ Hero Slider Area
 }
 
 .hero-slider.owl-theme .owl-nav .owl-prev:hover, .hero-slider.owl-theme .owl-nav .owl-next:hover {
-  background-color: #2d2d2d;
+  background-color: rgb(16, 57, 104);
+  color:white;
 }
 
 .hero-slider.owl-theme .owl-nav .owl-next {
@@ -1232,7 +1233,7 @@ Law Card Area
 }
 
 .low-card i {
-  color: #c8242f;
+  color: rgb(24, 53, 87);
   font-size: 50px;
   margin-bottom: 15px;
   -webkit-transition: all 0.5s;
@@ -1284,10 +1285,14 @@ Law Card Area
 }
 
 .low-card-two i {
-  background-color: #c8242f;
+  background-color: rgb(24, 53, 87);
   color: #ffffff;
   width: 60px;
   height: 60px;
+  padding-left:6px;
+  padding-right:6px;
+  padding-top:5px;
+  padding-bottom:5px;
   font-size: 35px;
   line-height: 60px;
   text-align: center;
@@ -1316,11 +1321,12 @@ Law Card Area
 }
 
 .low-card-two:hover {
-  background-color: #c8242f;
+  background-color: rgb(24, 53, 87);
 }
 
 .low-card-two:hover i {
-  background-color: #0f3041;
+  background-color: white;
+  color: rgb(24, 53, 87);
 }
 
 .low-card-two:hover h3 {
@@ -1328,7 +1334,7 @@ Law Card Area
 }
 
 .low-card-two:hover p {
-  color: #efbec1;
+  color: #ffffff;
 }
 
 /*================================================
