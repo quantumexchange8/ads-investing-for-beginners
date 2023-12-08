@@ -179,84 +179,77 @@
     </section>
     <!-- End what to consider Section -->
 
+<!--Strategies Section-->
+<div class="case-details-tab ptb-100">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-6">
+              <div class="case-details-tab-item">
+                  <h2>Pick Your Investment Strategies</h2>
+                  <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                      <li class="nav-item">
+                          <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Financial Advisor</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Robo-Advisor</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Self-Directed</a>
+                      </li>
+                  </ul>
 
-  <!-- ======= Strategies Section ======= -->
-  <section id="why-us" class="why-us cta">
-      <div class="container-fluid" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
-            <div class="content">
-              <h3>Pick Your  <strong>Investment Strategy</strong></h3>
-            </div>
-
-            <div class="accordion-list">
-              <ul>
-                <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">
-                    <span>01</span> Financial Advisor : <strong>Hands-off investments managed by a human</strong> 
-                    <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-                  </a>
-                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                    <p>
-                      If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services — 
-                      sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.
-                    </p>
-                    <p>With this strategy, a financial advisor builds and manages your investments on your behalf.
-                      This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
-                    </p>
+                  <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                          <h3>Hands-off investments managed by a human</h3>
+                          <p>
+                            If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services — 
+                            sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.
+                          </p>
+                          <p>With this strategy, a financial advisor builds and manages your investments on your behalf.
+                            This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
+                          </p>
+                          
+                         </div>
+                      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                          <h3>Hands-off investments managed by an algorithm</h3>
+                          <p> Some brokerages offer access to an automated investment service called a robo-advisor. Despite the name, this service 
+                            isn’t administered by a robot, but it is made possible by sophisticated investment algorithms.
+                        </p>
+                        <p> Here’s how it works:
+                        <ul>
+                              <li> First, you fill out an online application to open an account.</li>
+                              <li> Next, you answer a series of questions about your financial goals and how much risk you’re willing to take with your investments.</li>
+                              <li> Then, the robo-advisor puts together a portfolio on your behalf based on your questionnaire responses.</li>
+                              <li> The robo-advisor uses complex algorithms to monitor your account, moving investments in and out of your portfolio according to your 
+                                   financial goals. This technique is called portfolio rebalancing.</li>
+                        </ul>
+                        </p>
+                        <p> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>  </div>
+                      
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                          <h3>Pick your own investments</h3>
+                          <p> For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go. 
+                              This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing. 
+                              You’ll also be solely responsible for monitoring your investments and making adjustments over time as needed.
+                          </p>
+                          <p>This strategy is best for investors who want to manage their investments firsthand and don’t mind the extra homework 
+                             that often comes with managing a portfolio solo. 
+                          </p>
+                     </div>
                   </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">
-                    <span>02</span> Robo-Advisor : <strong>Hands-off investments managed by an algorithm</strong> 
-                    <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-                  </a>
-                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                    <p> Some brokerages offer access to an automated investment service called a robo-advisor. Despite the name, this service 
-                        isn’t administered by a robot, but it is made possible by sophisticated investment algorithms.
-                    </p>
-                    <p> Here’s how it works:
-                    <ol class="content pt-2" >
-                          <li> First, you fill out an online application to open an account.</li>
-                          <li> Next, you answer a series of questions about your financial goals and how much risk you’re willing to take with your investments.</li>
-                          <li> Then, the robo-advisor puts together a portfolio on your behalf based on your questionnaire responses.</li>
-                          <li> The robo-advisor uses complex algorithms to monitor your account, moving investments in and out of your portfolio according to your 
-                               financial goals. This technique is called portfolio rebalancing.</li>
-                    </ol>
-                    </p>
-                    <p> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">
-                    <span>03</span>Self-Directed : <strong>Pick your own investments</strong> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-                  </a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                      <p>  For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go. 
-                           This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing. 
-                           You’ll also be solely responsible for monitoring your investments and making adjustments over time as needed.
-                     </p>
-                      <p>This strategy is best for investors who want to manage their investments firsthand and don’t mind the extra homework 
-                         that often comes with managing a portfolio solo. 
-                     </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
+              </div>
           </div>
-         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/Untitled design.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
-        </div>
-
+          <div class="col-lg-6">
+              <div class="case-details-tab-item">
+                  <div class="case-details-tab-img">
+                      <img src="asset/img/strategies.png" alt="Image">
+                  </div>
+              </div>
+          </div>
       </div>
-  </section>
-    
-    <!-- End Strategy Section -->
-
-
+  </div>
+</div>
+<!-- End of Strategies --->
 
 
 <!-- ======= How can i invest Section ======= -->

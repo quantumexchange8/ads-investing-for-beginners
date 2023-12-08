@@ -4218,11 +4218,13 @@ Faq Area
 .case-details-item ul li {
   list-style-type: none;
   display: block;
-  color: #4a4a4a;
+  color: #ffffff;
 }
 
+
+
 .case-details-tab {
-  background-color: #0f3041;
+  background-color: rgb(24, 53, 87);
 }
 
 .case-details-tab .case-details-tab-item h2 {
@@ -4238,8 +4240,8 @@ Faq Area
 
 .case-details-tab .case-details-tab-item .nav-pills .nav-link {
   border-radius: 0;
-  color: #ffffff;
-  border: 1px solid #c8242f;
+  color: white;
+  border: 1px solid white;
   width: 150px;
   text-align: center;
   margin-right: 10px;
@@ -4248,7 +4250,8 @@ Faq Area
 }
 
 .case-details-tab .case-details-tab-item .nav-pills .nav-link.active {
-  background-color: #c8242f;
+  background-color:white;
+  color:rgb(24, 53, 87);
 }
 
 .case-details-tab .case-details-tab-item .tab-content h3 {
@@ -4256,10 +4259,13 @@ Faq Area
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: white;
 }
 
 .case-details-tab .case-details-tab-item .tab-content p {
+  color: #c8c6c6;
+}
+.case-details-tab .case-details-tab-item .tab-content ul li{
   color: #c8c6c6;
 }
 
@@ -4270,7 +4276,7 @@ Faq Area
 }
 
 .case-details-tab .case-details-tab-item .case-details-tab-img img {
-  border: 10px solid #c8242f;
+  border: 7px solid white;
 }
 
 /*================================================
