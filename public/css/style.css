@@ -304,18 +304,18 @@ hr {
 
 .btn-soft-primary:hover, .btn-soft-primary:focus, .btn-soft-primary:active, .btn-soft-primary.active, .btn-soft-primary.focus, .btn-soft-primary:not(:disabled):not(.disabled):active, .btn-soft-primary:not(:disabled):not(.disabled):active:focus,
 .btn-soft-primary .open > .dropdown-toggle.btn-primary {
-  background: #327d6f;
+  background: rgb(30, 78, 133);
 }
 
 .btn-primary {
-  background: #388c7c;
-  border-color: #388c7c !important;
+  background:rgb(30, 78, 133);
+  border-color:rgb(30, 78, 133);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-  background: #327d6f;
-  border-color: #327d6f;
+  background: rgb(41, 99, 165);
+  border-color: rgb(41, 99, 165);
 }
 
 .btn-outline-primary {
@@ -325,8 +325,8 @@ hr {
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open > .dropdown-toggle.btn-primary {
-  background: #388c7c;
-  border-color: #388c7c;
+  background: rgb(18, 48, 83);
+  border-color: rgb(18, 48, 83);
 }
 
 .bg-success {

@@ -137,17 +137,19 @@ p:last-child {
   display: inline-block;
   padding: 12px 25px;
   border-radius: 5px;
+  margin-top:5px;
+  margin-bottom:5px;
 }
 
 .default-btn-two:hover {
-  background-color: #0f3041;
-  border: 1px solid #0f3041;
-  color: #ffffff;
+  background-color: white;
+  border: 1px solid white;
+  color: #0f3041;
 }
 
 .section-title {
   max-width: 700px;
-  margin: 0 auto 60px;
+  margin: 0 auto 10px;
 }
 
 .section-title span {
@@ -1378,10 +1380,11 @@ About Us Area
   margin-bottom: 15px;
   padding-left: 25px;
   position: relative;
+  color: #26366d;
 }
 
 .about-area .about-text ul li i {
-  color: #c8242f;
+  color: #254779;
   font-size: 20px;
   position: absolute;
   left: 0;
@@ -1390,6 +1393,7 @@ About Us Area
 
 .about-area .about-text .about-btn {
   margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .about-area-two .about-progress {
@@ -3163,6 +3167,8 @@ Contact Area
 .contact-form .form-group {
   position: relative;
   margin-bottom: 20px;
+  background-color: #eee;
+
 }
 
 .contact-form .form-group .form-control {
@@ -3174,7 +3180,10 @@ Contact Area
   border: none;
   padding: 10px 10px 10px 75px;
   position: relative;
+  background-color: #f3f3f3;
+ 
 }
+
 
 .contact-form .form-group textarea.form-control {
   height: auto;
@@ -4166,7 +4175,7 @@ Faq Area
 }
 
 .faq-area .contact-form {
-  background: #eee;
+  background: white;
   padding: 80px 80px;
   border-radius: 10px;
   margin-top: 50px;
@@ -4263,10 +4272,10 @@ Faq Area
 }
 
 .case-details-tab .case-details-tab-item .tab-content p {
-  color: #c8c6c6;
+  color: #f0efef;
 }
 .case-details-tab .case-details-tab-item .tab-content ul li{
-  color: #c8c6c6;
+  color: #f0efef;
 }
 
 .case-details-tab .case-details-tab-item .case-details-tab-img {
@@ -4344,5 +4353,15 @@ Gallery  Area
 .buy-now-btn:hover {
   color: #ffffff;
   background-color: #94be5d;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: rgb(24, 53, 87);
+  font-size: 12px;
+  color:white;
+  border: 1px solid rgb(24, 53, 87);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@
 
 <main id="main">
 <!-- Tips Investing ---->
+<section id="team" class="team skills">
 <div class="about-area ptb-100">
   <div class="container">
       <div class="row align-items-center">
@@ -76,7 +77,7 @@
       </div>
   </div>
 </div>
-
+</section>
 <!--End of Tips Investing --->
 
 <!--Why Invest -->
@@ -111,6 +112,10 @@
                       <p>Investing is a crucial component of retirement planning. As you contribute to retirement accounts and watch your investments grow, you're actively shaping a comfortable and 
                          secure retirement. The power of compounding ensures that your money works for you, allowing you to enjoy the golden years with peace of mind</p>
                   </div>
+                  
+                  <div class="about-btn">
+                    <a href="#contact-form" class="default-btn-one">Grow Your Wealth Now!</a>
+                </div>
               </div>
           </div>
 
@@ -147,7 +152,7 @@
             <div class="member d-flex align-items-start">
               <div class="services">  
                 <a href=""><i class="bi bi-currency-dollar"></i></a> 
-            </div>
+              </div>
               <div class="member-info">
                 <h4>Do you have a lot of credit card debt?</h4>
                 <p class="mt-2">If the answer is yes, you’re probably not in a position to invest quite yet. 
@@ -176,7 +181,7 @@
           </div>
         </div>
       </div>
-    </section>
+  </section>
     <!-- End what to consider Section -->
 
 <!--Strategies Section-->
@@ -208,13 +213,12 @@
                           <p>With this strategy, a financial advisor builds and manages your investments on your behalf.
                             This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
                           </p>
-                          
-                         </div>
+                      </div>
                       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                           <h3>Hands-off investments managed by an algorithm</h3>
                           <p> Some brokerages offer access to an automated investment service called a robo-advisor. Despite the name, this service 
                             isn’t administered by a robot, but it is made possible by sophisticated investment algorithms.
-                        </p>
+                          </p>
                         <p> Here’s how it works:
                         <ul>
                               <li> First, you fill out an online application to open an account.</li>
@@ -224,9 +228,9 @@
                                    financial goals. This technique is called portfolio rebalancing.</li>
                         </ul>
                         </p>
-                        <p> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>  </div>
-                      
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <p> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>  
+                      </div>
+                      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                           <h3>Pick your own investments</h3>
                           <p> For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go. 
                               This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing. 
@@ -236,6 +240,10 @@
                              that often comes with managing a portfolio solo. 
                           </p>
                      </div>
+
+                     <div class="about-btn">
+                      <a href="#contact-form" class="default-btn-two">Secure Your Future</a>
+                    </div>
                   </div>
               </div>
           </div>
@@ -284,6 +292,7 @@
               <div class="container">
                   <div class="slider-content">
                       <div class="row">
+                     
                           <div class="col-lg-6">
                               <span>Types of Investment for Beginners</span>
                               <h1>Stock</h1>
@@ -292,7 +301,9 @@
                                 making it one of the most successful investments of this millennium.</p>
 
                               <p>Remember: Not all companies offer dividends and stock values don't always go up. If share prices fall, you may wind up with stocks worth less than you paid for them.</p>
-                            
+                              <div class="about-btn">
+                                <a href="#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
+                            </div>
                           </div>
                           <div class="col-lg-6">
                               <div class="slider-image">
@@ -322,6 +333,9 @@
                                   creditworthiness.Some high-yield bonds can even have stock-like risk of loss. There are also bonds with lower interest rates that can offer 
                                   tax advantages,such as municipal bonds or Treasury bonds. 
                               </p>
+                              <div class="about-btn">
+                                <a href="#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
+                            </div>
                           </div>
                           <div class="col-lg-6">
                               <div class="slider-image">
@@ -352,7 +366,9 @@
                               is through holding the property and selling it for more than you bought it for down the road. If you choose the area of 
                               the property well then holding it as an asset for multiple years can mean a nice increase when you sell it one day.
                             </p>   
-                      
+                            <div class="about-btn">
+                              <a href="#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
+                          </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="slider-image">
@@ -412,13 +428,16 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
+    
         <h2>Investment Planning</h2>
         <p>Investment planning is the process of identifying financial goals and converting them through building a plan. 
            Investment planning is the main component of financial planning. The investment planning begins
            with identification of goals and objectives. Then we need to match those goals with our available financial resources. 
         </p>
+        <a href="#contact-form" class="default-btn-one btn-round text-uppercase mt-3">Start Your Prosperity Journey
+        </a>
       </div>
-
+     
       <div class="row mt-4 justify-content-around">
         <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4 " data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
@@ -509,11 +528,19 @@
   <!-- End Investment plan Section -->
 
 
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous">
+</script>
 <!--FAQ Option 1-->
 
+
 <div class="faq-area ptb-100 section-bg">
+
   <div class="container">
+ 
       <div class="row align-items-center">
+     
+
           <div class="col-lg-6 col-md-12">
             <div class="section-title">
               <h2>Frequently Asked Questions</h2>
@@ -521,7 +548,7 @@
               <div class="faq-accordion">
                   <ul class="accordion">
                       <li class="accordion-item">
-                          <a class="accordion-title active" href="javascript:void(0)">
+                          <a class="accordion-title active">
                               <i class="las la-plus"></i>
                               What is investing, and why should I consider it as a beginner?
                           </a>
@@ -533,7 +560,7 @@
                       </li>
                       
                       <li class="accordion-item">
-                          <a class="accordion-title" href="javascript:void(0)">
+                          <a class="accordion-title" >
                               <i class="las la-plus"></i>
                               How much money do I need to start investing?
                           </a>
@@ -545,7 +572,7 @@
                       </li>
                       
                       <li class="accordion-item">
-                          <a class="accordion-title" href="javascript:void(0)">
+                          <a class="accordion-title">
                               <i class="las la-plus"></i>
                               What are some beginner-friendly investment options?
                           </a>
@@ -557,7 +584,7 @@
                       </li>
 
                       <li class="accordion-item">
-                          <a class="accordion-title" href="javascript:void(0)">
+                          <a class="accordion-title">
                               <i class="las la-plus"></i>
                               Is investing risky, and can I lose all my money?
                           </a>
@@ -569,7 +596,7 @@
                       </li>
                       
                       <li class="accordion-item">
-                          <a class="accordion-title" href="javascript:void(0)">
+                          <a class="accordion-title">
                               <i class="las la-plus"></i>
                               How do I choose the right investment strategy? 
                           </a>
@@ -586,29 +613,32 @@
           </div>
 
           <div class="col-lg-6 col-md-12">
-            <div class="contact-form">
-              <form id="contactForm">
+          
+            <div class="contact-form" id="contact-form">
+              <form method="POST" name="contact-form" action="https://sheetdb.io/api/v1/vktjbmdq0a1ub" onsubmit="return disableButton()"  role="form" id="sheetdb-form">
                   <div class="section-title mb-2">
-                      <h2>Join Us</h2>  
+                      <h2>Invest in Your Future Prosperity</h2>  
                   </div> 
+
                   <div class="row">
                       <div class="col-md-12">
                           <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" required data-error="Please enter your name" placeholder="Your Name">
+                              <input type="text" name="data[name]" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name">
                               <div class="help-block with-errors"></div>
                               <i class="las la-user"></i>
                           </div>
+                
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control" id="email" required data-error="Please enter your email" placeholder="Email Address">
+                            <input type="email" name="data[email]" id="email" class="form-control" required data-error="Please enter your email" placeholder="Email Address">
                             <div class="help-block with-errors"></div>
                             <i class="las la-envelope"></i>
                         </div>
                     </div>
                       <div class="col-md-6">
                           <div class="form-group">
-                              <input type="text" name="email" class="form-control" id="Phone" required data-error="Please enter your phone" placeholder="Your Phone">
+                              <input type="text" name="data[phone]" class="form-control" id="phone" required data-error="Please enter your phone" placeholder="Your Phone">
                               <div class="help-block with-errors"></div>
                               <i class="las la-phone"></i>
                           </div>
@@ -618,118 +648,59 @@
     
                       <div class="col-lg-12 col-md-12">
                           <div class="form-group">
-                              <textarea name="message" id="message" class="form-control" cols="30" rows="6" data-error="Please enter your message" placeholder="Write message..."></textarea>
+                              <textarea name="data[description]" id="message" class="form-control" cols="30" rows="6" data-error="Please enter your message" placeholder="Write message..."></textarea>
                               <div class="help-block with-errors"></div>
                               <i class="las la-sms"></i>
                           </div>
                       </div>
     
                       <div class="col-lg-12 col-md-12">
-                          <button type="submit" class="default-btn-one">Submit</button>
-                          <div id="msgSubmit" class="h3 text-center hidden"></div>
-                          <div class="clearfix"></div>
+                          <button type="submit" id="btn" class="default-btn-one">Submit</button>
+                          
                       </div>
+                
+
                   </div>
               </form>
-          </div>
-          </div>
+            </div>
+          </div> 
       </div>
-
-      
-      
-     
   </div>
+
 </div>
+
+<script>
+    function disableButton(){
+          let btn=document.getElementById('btn');
+          btn.disabled=true;
+          btn.innerText='Posting..';
+          return true; }
+    
+          var form = document.getElementById('sheetdb-form');
+          form.addEventListener("submit", e => {
+              e.preventDefault();
+              fetch(form.action, {
+                  method : "POST",
+                  body: new FormData(document.getElementById("sheetdb-form")),
+              }).then(response => response.json())
+                .then((html) => {
+                  swal("Thank You!", "Your detail has been successfully submitted", "success");
+                  document.getElementById("sheetdb-form").reset();
+                  let btn=document.getElementById('btn');
+                  btn.disabled=false;
+                  btn.innerText='Submit';
+                  return false;
+                });
+          });
+</script>
 <!--End of FAQ---->
 
 
 
-  <!-- ======= Frequently Asked Questions Section ======= -->
-  <section id="faq" class="faq section-bg">
-    <div class="container" data-aos="fade-up">
 
-      <div class="section-title">
-        <h2>Frequently Asked Questions</h2>
-      </div>
-
-      <div class="faq-list">
-        <ul>
-          <li data-aos="fade-up" data-aos-delay="100">
-            <i class="bx bx-help-circle icon-help"></i> 
-            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is investing, and why should I consider it as a beginner?
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-            </a>
-            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-              <p>Investing involves putting your money to work with the goal of generating returns over time. It's a pathway to wealth-building, financial security,
-                 and achieving long-term financial goals.   
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="200">
-            <i class="bx bx-help-circle icon-help"></i> 
-            <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How much money do I need to start investing? 
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-            </a>
-            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-              <p> You can start with as little as you're comfortable with. Many investment platforms allow you to begin with small amounts. 
-                  The key is consistency in contributions.   
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="300">
-            <i class="bx bx-help-circle icon-help"></i> 
-            <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed"> What are some beginner-friendly investment options?
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-            </a>
-            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-              <p> Consider diversified options like index funds, ETFs, or target-date funds. These provide broad exposure and are relatively less 
-                  volatile than individual stocks.
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="400">
-            <i class="bx bx-help-circle icon-help"></i> 
-            <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Is investing risky, and can I lose all my money?
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-            </a>
-            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-              <p>All investments come with some level of risk. However, diversification and a long-term perspective can help mitigate risks. 
-                 It's crucial to understand your risk tolerance and invest accordingly.
-              </p>
-            </div>
-          </li>
-
-          <li data-aos="fade-up" data-aos-delay="500">
-            <i class="bx bx-help-circle icon-help"></i> 
-            <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">How do I choose the right investment strategy? 
-            <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
-            </a>
-            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-              <p> Start by defining your financial goals and risk tolerance. Consider factors like time horizon and the level of involvement you want. 
-                  Consult with a financial advisor if needed.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </section> 
-  <!------ End Frequently Asked Questions Section ------>
-
-<!-- Tips successful Section -->
-
-
-
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous">
-</script>
 
   <!-- ======= Submit Detail Section ======= -->
-<section id="contact" class="contact">
+<!--<section id="contact" class="contact">
   <div class="container" data-aos="fade-up">
       <div class="section-title">
         <h2>Join us</h2>
@@ -773,36 +744,11 @@
 
   </div>
   </div>
-</section>
+</section> -->
 
 <!-- End of Submit Detail Section -->
 
-  <script>
-    function disableButton(){
-          let btn=document.getElementById('btn');
-          btn.disabled=true;
-          btn.innerText='Posting..';
-          return true; }
-    
-          var form = document.getElementById('sheetdb-form');
-          form.addEventListener("submit", e => {
-              e.preventDefault();
-              fetch(form.action, {
-                  method : "POST",
-                  body: new FormData(document.getElementById("sheetdb-form")),
-              }).then(response => response.json())
-                .then((html) => {
-                  document.getElementById("sheetdb-form").reset();
-                  alert("Successfully submit");
-                  let btn=document.getElementById('btn');
-                  btn.disabled=false;
-                  btn.innerText='Submit';
-                  return false;
-                });
-          });
-     
-  </script> 
- 
+
 
 </main>
 
