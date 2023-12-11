@@ -1449,6 +1449,7 @@ hr {
 
 .testi-img {
   border-radius: 5px;
+
 }
 
 .client-box .client-content {
@@ -1467,7 +1468,7 @@ hr {
 }
 
 .carousel-indicators {
-  background-color: #ffffff;
+  background-color: #24446d;
   align-items: center;
   position: absolute;
   right: auto;
@@ -1481,16 +1482,18 @@ hr {
 
 .carousel-indicators li {
   width: 50px;
-  height: 50px;
+  height: 100px;
   margin: 10px 5px;
-  border: 5px solid transparent;
+  border: 5px solid #24446d;
   cursor: pointer;
-  overflow: hidden;
+  overflow:visible;
+  background-color:black;
+ 
 }
 
 .carousel-indicators .active {
   opacity: 1;
-  border: 3px solid #388c7c;
+  border: 3px solid #1e254d;
   z-index: 3;
   border-radius: 7px;
 }

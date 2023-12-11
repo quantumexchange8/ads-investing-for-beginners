@@ -422,6 +422,114 @@
 <!--End of Types of Investment Section-->
 
 
+<section id="client" class="section section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+  
+      <h2>Fundamental Investing Principles</h2>
+  
+     <!-- <a href="#contact-form" class="default-btn-one btn-round text-uppercase mt-3">Start Your Prosperity Journey
+      </a>-->
+    </div>
+   
+    <div class="row justify-content-center mt-1 pt-2">
+      <div class="col-lg-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="client-box mt-4">
+                          <div class="row">
+                              <div class="col-lg-5">
+                                  <div class="client-img mt-4">
+                                      <img src="images/users/risk.png" class="img-fluid" alt="">
+                                  </div>
+                              </div>
+                              <div class="col-lg-7">
+                                  <div class="mt-4">
+                                      <div class="client-content">
+                                          <h4 class="f-20"><a href="#" class="text-dark">Risk-Return Tradeoff
+                                          </a></h4>
+                                          <p>
+                                            The risk-return tradeoff posits that to pursue higher potential returns, investors must accept higher levels of risk, 
+                                            and conversely, minimizing risk involves sacrificing potential returns. </p>
+                                           <p>This concept is reflected in various asset classes: low-risk options like cash equivalents (e.g., CDs, Treasury bills) offer lower returns, 
+                                            while higher-risk assets like stocks present the potential for greater returns. A well-structured investment portfolio often combines different 
+                                            assets to strike an optimal balance between risk and reward.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="client-box mt-4">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="client-img mt-4">
+                                    <img src="images/users/diverse.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="mt-4">
+                                    <div class="client-content">
+                                        <h4 class="f-20"><a href="#" class="text-dark">Diversification
+                                        </a></h4>
+                                        <p>Diversification is crucial for optimizing investment performance by enhancing efficiency, measured as potential return per unit of risk. 
+                                           This strategy entails combining assets with diverse risk profiles that move independently. </p>
+                                        <p>When one asset's value changes, others may move 
+                                           in a different direction, creating a balanced portfolio. The goal is to maintain a relatively stable and upward-trending portfolio value over 
+                                           time, fostering the potential for superior long-term returns.</p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="client-box mt-4">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="client-img mt-4">
+                                    <img src="images/users/time.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="mt-4">
+                                    <div class="client-content">
+                                        <h4 class="f-20"><a href="#" class="text-dark">Time Value of Money
+                                        </a></h4>
+                                        <p>
+                                          Understanding the risk-reward tradeoff and the benefits of diversification is fundamental for investors. Additionally, recognizing the 
+                                          time value of money is crucial, highlighting the idea that a dollar today is more valuable than a dollar tomorrow due to its potential 
+                                          to earn interest and grow over time. </p>
+                                        <p>To capitalize on compound interest and passively accumulate wealth, financially-minded individuals should invest early and consistently
+                                           over an extended period.
+                                        </p> 
+                                        <p>Before launching an investment program, it's essential to establish an adequate emergency fund, typically equivalent to six to twelve months of living expenses. 
+                                           This precaution serves as a financial safety net before engaging in more long-term investment strategies.
+                                       </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+           <ol class="carousel-indicators mb-0 rounded">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
+                </li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                </li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                </li>
+            </ol>
+          </div>    
+      </div>       
+    </div>
+  </div>
+</section>
+
 
   <!-- ======= invest plan Section ======= -->
   <section id="services" class="services ">
@@ -526,7 +634,6 @@
     </div>
   </section>
   <!-- End Investment plan Section -->
-
 
   <script
   src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous">
