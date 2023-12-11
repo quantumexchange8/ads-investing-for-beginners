@@ -1493,7 +1493,7 @@ hr {
 
 .carousel-indicators .active {
   opacity: 1;
-  border: 3px solid #1e254d;
+  border: 3px solid #24446d;
   z-index: 3;
   border-radius: 7px;
 }

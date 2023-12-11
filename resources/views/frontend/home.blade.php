@@ -40,34 +40,28 @@
                     <div class="col-lg-12">
                         <ul>
                             <li>
-                                <i class="las la-check-square"></i>
-                                Start Small, Consistent Contributions:
+                                <i class="las la-check-square"></i> Start Small, Consistent Contributions:
                             </li>
                                 <p>Begin your investment journey with manageable amounts and commit to consistent contributions.
                                 </p>
                                 <p class="mb-4">Whether it's monthly or quarterly, regular investing, even in modest amounts, harnesses the power 
-                                   of compounding. Over time, these contributions can accumulate and significantly contribute to the 
-                                   growth of your portfolio.
+                                                of compounding. Over time, these contributions can accumulate and significantly contribute to the 
+                                                growth of your portfolio.
                                 </p>
-
                         </ul>
                     </div>
                   </div>
 
                   <div class="row mt-2 mb-2">
-    
                   <div class="col-lg-12">
                       <ul>
                         <li>
-                          <i class="las la-check-square"></i>
-                          Think Long-Term:
+                          <i class="las la-check-square"></i>Think Long-Term:
                         </li>
-                          <p>Investing is a marathon, not a sprint. Embrace a patient mindset and 
-                             focus on the long-term horizon.
+                          <p>Investing is a marathon, not a sprint. Embrace a patient mindset and focus on the long-term horizon.
                           </p>
                           <p class="mb-4">Short-term market fluctuations are inevitable, but a well-thought-out strategy, grounded in 
-                             your financial objectives, can weather the storms and capitalize on the growth potential of 
-                             your investments over time.
+                                          your financial objectives, can weather the storms and capitalize on the growth potential of your investments over time.
                           </p>
                       </ul>
                   </div>
@@ -87,7 +81,6 @@
           <div class="col-lg-6">
               <div class="choose-text">
                   <div class="section-title">
-                  
                       <h2>Why Invest? </h2>
                       <p>Unlock Your Financial Potential</p>
                   </div>
@@ -115,7 +108,7 @@
                   
                   <div class="about-btn">
                     <a href="#contact-form" class="default-btn-one">Grow Your Wealth Now!</a>
-                </div>
+                  </div>
               </div>
           </div>
 
@@ -292,7 +285,6 @@
               <div class="container">
                   <div class="slider-content">
                       <div class="row">
-                     
                           <div class="col-lg-6">
                               <span>Types of Investment for Beginners</span>
                               <h1>Stock</h1>
@@ -303,7 +295,7 @@
                               <p>Remember: Not all companies offer dividends and stock values don't always go up. If share prices fall, you may wind up with stocks worth less than you paid for them.</p>
                               <div class="about-btn">
                                 <a href="#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
-                            </div>
+                              </div>
                           </div>
                           <div class="col-lg-6">
                               <div class="slider-image">
