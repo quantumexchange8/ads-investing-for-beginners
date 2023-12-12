@@ -74,6 +74,7 @@
 </section>
 <!--End of Tips Investing --->
 
+
 <!--Why Invest -->
 <div class="choose-area ptb-100 section-bg">
   <div class="container-fluid">
@@ -128,13 +129,10 @@
       </div>
   </div>
 </div>
-
 <!--End of Why Invest ---->
 
 
-
-
-  <!-- ======= what to consider Section ======= -->
+<!-- ======= what to consider Section ======= -->
   <section id="team" class="team skills">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -175,7 +173,8 @@
         </div>
       </div>
   </section>
-    <!-- End what to consider Section -->
+<!-- End what to consider Section -->
+
 
 <!--Strategies Section-->
 <div class="case-details-tab ptb-100">
@@ -195,7 +194,6 @@
                           <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Self-Directed</a>
                       </li>
                   </ul>
-
                   <div class="tab-content" id="pills-tabContent">
                       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                           <h3>Hands-off investments managed by a human</h3>
@@ -720,25 +718,27 @@
                               <div class="help-block with-errors"></div>
                               <i class="las la-user"></i>
                           </div>
-                
                       </div>
-                      <div class="col-md-6">
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
                         <div class="form-group">
                             <input type="email" name="data[email]" id="email" class="form-control" required data-error="Please enter your email" placeholder="Email Address">
                             <div class="help-block with-errors"></div>
                             <i class="las la-envelope"></i>
                         </div>
                     </div>
-                      <div class="col-md-6">
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
                           <div class="form-group">
                               <input type="text" name="data[phone]" class="form-control" id="phone" required data-error="Please enter your phone" placeholder="Your Phone">
                               <div class="help-block with-errors"></div>
                               <i class="las la-phone"></i>
                           </div>
                       </div>
-    
-                    
-    
+                  </div>
+                  <div class="row">
                       <div class="col-lg-12 col-md-12">
                           <div class="form-group">
                               <textarea name="data[description]" id="message" class="form-control" cols="30" rows="6" data-error="Please enter your message" placeholder="Write message..."></textarea>
@@ -746,13 +746,9 @@
                               <i class="las la-sms"></i>
                           </div>
                       </div>
-    
                       <div class="col-lg-12 col-md-12">
                           <button type="submit" id="btn" class="default-btn-one">Submit</button>
-                          
                       </div>
-                
-
                   </div>
               </form>
             </div>
