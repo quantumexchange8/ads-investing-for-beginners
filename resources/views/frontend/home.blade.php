@@ -3,74 +3,62 @@
 
 <main id="main">
 <!-- Tips Investing ---->
-<section id="team" class="team skills">
-  <div class="about-area ptb-100">
+<div class="about-area ptb-100">
   <div class="container">
+    <div class="about-text">
+      <div class="section-title">
+        <h2>Successful Investing Tips</h2>
+      </div></div>
       <div class="row align-items-center">
-          <div class="mr-3 col-lg-5 mr-3">
+          <div class="col-lg-5">
               <div class="about-image">
                   <img src="asset/img/invest3.png" alt="Image">
               </div>
           </div>
 
           <div class="col-lg-7">
-              <div class="about-text">
+         
 
-                  <div class="section-title">
-                      <h2>Tips for Successful Investing: Building a Solid Foundation</h2>
-                  </div>
-
-                  <div class="row mt-2 mb-2">
+                  <div class="row">
                       <div class="col-lg-12">
                           <ul>
                               <li>
                                   <i class="las la-check-square"></i>
-                                   Stay Informed
+                                  Stay Informed
+                       
                               </li>
-                                  <p>Successful investors stay abreast of market trends, economic developments, 
-                                     and changes in the financial landscape.
-                                  </p>
-                                  <p class="mb-4">Regularly update your knowledge through reputable sources, financial news, and 
-                                     educational materials. Informed decisions are the bedrock of a resilient investment strategy.
-                                  </p>
+                              <p class="text-left mb-4">Successful investors remain informed about market trends, economic shifts, and financial changes. 
+                              Making informed decisions based on this ongoing learning is crucial for establishing a robust and resilient investment strategy.
+                              </p>
                           </ul>
                       </div>
-                  </div>
-
-                  <div class="row mt-2 mb-2">
-                    <div class="col-lg-12">
+                      <div class="col-lg-12">
                         <ul>
-                            <li>
-                                <i class="las la-check-square"></i> Start Small, Consistent Contributions:
-                            </li>
-                                <p>Begin your investment journey with manageable amounts and commit to consistent contributions.
-                                </p>
-                                <p class="mb-4">Whether it's monthly or quarterly, regular investing, even in modest amounts, harnesses the power 
-                                                of compounding. Over time, these contributions can accumulate and significantly contribute to the 
-                                                growth of your portfolio.
-                                </p>
+                          <li>
+                            <i class="las la-check-square"></i> Start Small, Consistent Contributions:
+                        </li>
+                            <p class="text-left mb-4">
+                              Start your investment journey with manageable amounts and commit to consistent contributions, whether monthly or quarterly. 
+                              Regular investing, even in modest amounts, leverages the power of compounding, leading to significant portfolio growth over time.
+                            </p>
                         </ul>
                     </div>
-                  </div>
-
-                <div class="row mt-2 mb-2">
-                  <div class="col-lg-12">
+                    <div class="col-lg-12 mb-4">
                       <ul>
                         <li><i class="las la-check-square"></i>Think Long-Term:</li>
-                          <p>Investing is a marathon, not a sprint. Embrace a patient mindset and focus on the long-term horizon.</p>
-                          <p class="mb-4">Short-term market fluctuations are inevitable, but a well-thought-out strategy, grounded in 
-                            your financial objectives, can weather the storms and capitalize on the growth potential of your investments over time.
-                          </p>
+                        <p class="text-left">Approach investing as a marathon, not a sprint. Adopt a patient mindset, emphasizing the long-term horizon. 
+                          While short-term market fluctuations are inevitable, a well-planned strategy aligned with your financial objectives can endure challenges 
+                          and capitalize on the long-term growth potential of your investments.
+                        </p>
+                        
                       </ul>
                   </div>
-                </div>
-
-              </div>
+                  </div>
+             
           </div>
       </div>
   </div>
-  </div>
-</section>
+</div>
 <!--End of Tips Investing --->
 
 
@@ -82,7 +70,6 @@
               <div class="choose-text">
                   <div class="section-title">
                       <h2>Why Invest? </h2>
-                      <p>Unlock Your Financial Potential</p>
                   </div>
                   
                   <div class="choose-card">
