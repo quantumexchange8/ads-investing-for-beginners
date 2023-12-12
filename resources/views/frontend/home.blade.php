@@ -413,18 +413,12 @@
 
 <!--End of Types of Investment Section-->
 
-
+<!--Start of Investment Principle Section-->
 <section id="client" class="section section-bg">
   <div class="container" data-aos="fade-up">
-
     <div class="section-title">
-  
       <h2>Fundamental Investing Principles</h2>
-  
-     <!-- <a href="#contact-form" class="default-btn-one btn-round text-uppercase mt-3">Start Your Prosperity Journey
-      </a>-->
     </div>
-   
     <div class="row justify-content-center mt-1 pt-2">
       <div class="col-lg-12">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -515,13 +509,13 @@
                 </li>
                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
                 </li>
-            </ol>
+           </ol>
           </div>    
       </div>       
     </div>
   </div>
 </section>
-
+<!--End of Investment Principle Section-->
 
   <!-- ======= invest plan Section ======= -->
   <section id="services" class="services ">
@@ -627,12 +621,12 @@
   </section>
   <!-- End Investment plan Section -->
 
-  <script
+<script
   src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous">
 </script>
-<!--FAQ Option 1-->
 
 
+<!--FAQ and Submit Form Section-->
 <div class="faq-area ptb-100 section-bg">
 
   <div class="container">
@@ -773,8 +767,9 @@
           let btn=document.getElementById('btn');
           btn.disabled=true;
           btn.innerText='Posting..';
-          return true; }
-    
+          return true;
+    }
+
           var form = document.getElementById('sheetdb-form');
           form.addEventListener("submit", e => {
               e.preventDefault();
@@ -793,61 +788,6 @@
           });
 </script>
 <!--End of FAQ---->
-
-
-
-
-
-  <!-- ======= Submit Detail Section ======= -->
-<!--<section id="contact" class="contact">
-  <div class="container" data-aos="fade-up">
-      <div class="section-title">
-        <h2>Join us</h2>
-        <p>Send us your detail below</p>
-      </div>
-
-  <div class="row justify-content-center">
-
-    <div class="col-lg-7 justify-content-center mt-5 mt-lg-0 d-flex align-items-stretch">
-      <form method="POST" name="contact-form" action="https://sheetdb.io/api/v1/vktjbmdq0a1ub" onsubmit="return disableButton()" role="form" id="sheetdb-form" class="php-email-form">
-            <div class="row">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" class="form-control" name="data[name]" id="name" required>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="form-group col-md-6">
-                <label for="name">Your Email</label>
-                <input type="email" class="form-control" name="data[email]" id="email" required>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="name">Your Phone Number</label>
-                <input type="text" name="data[phone]" class="form-control" id="phone" required>
-              </div>  
-            </div>
-
-            <div class="row">
-              <div class="form-group">
-              <label for="name">Description/Message</label>
-              <textarea class="form-control" name="data[description]" rows="10" ></textarea>
-              </div>
-            </div>
-         
-          <div class="text-center">
-            <button type="submit" id="btn" >Submit</button>
-          </div>
-      </form>
-    </div>
-
-  </div>
-  </div>
-</section> -->
-
-<!-- End of Submit Detail Section -->
-
-
 
 </main>
 
