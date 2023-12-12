@@ -8,7 +8,7 @@
     <div class="about-text">
       <div class="section-title">
         <h2>Successful Investing Tips</h2>
-      </div></div>
+      </div>
       <div class="row align-items-center">
           <div class="col-lg-5">
               <div class="about-image">
@@ -23,11 +23,9 @@
                       <div class="col-lg-12">
                           <ul>
                               <li>
-                                  <i class="las la-check-square"></i>
-                                  Stay Informed
-                       
+                                  <i class="las la-check-square"></i> Stay Informed
                               </li>
-                              <p class="text-left mb-4">Successful investors remain informed about market trends, economic shifts, and financial changes. 
+                              <p class="mb-4">Successful investors remain informed about market trends, economic shifts, and financial changes. 
                               Making informed decisions based on this ongoing learning is crucial for establishing a robust and resilient investment strategy.
                               </p>
                           </ul>
@@ -35,9 +33,8 @@
                       <div class="col-lg-12">
                         <ul>
                           <li>
-                            <i class="las la-check-square"></i> Start Small, Consistent Contributions:
-                        </li>
-                            <p class="text-left mb-4">
+                            <i class="las la-check-square"></i> Start Small, Consistent Contributions</li>
+                            <p class="mb-4">
                               Start your investment journey with manageable amounts and commit to consistent contributions, whether monthly or quarterly. 
                               Regular investing, even in modest amounts, leverages the power of compounding, leading to significant portfolio growth over time.
                             </p>
@@ -45,8 +42,8 @@
                     </div>
                     <div class="col-lg-12 mb-4">
                       <ul>
-                        <li><i class="las la-check-square"></i>Think Long-Term:</li>
-                        <p class="text-left">Approach investing as a marathon, not a sprint. Adopt a patient mindset, emphasizing the long-term horizon. 
+                        <li><i class="las la-check-square"></i>Think Long-Term</li>
+                        <p>Approach investing as a marathon, not a sprint. Adopt a patient mindset, emphasizing the long-term horizon. 
                           While short-term market fluctuations are inevitable, a well-planned strategy aligned with your financial objectives can endure challenges 
                           and capitalize on the long-term growth potential of your investments.
                         </p>
@@ -54,7 +51,7 @@
                       </ul>
                   </div>
                   </div>
-             
+                </div>
           </div>
       </div>
   </div>
@@ -93,7 +90,7 @@
                          secure retirement. The power of compounding ensures that your money works for you, allowing you to enjoy the golden years with peace of mind</p>
                   </div>
                   
-                  <div class="about-btn">
+                  <div class="about-btn mb-2">
                     <a href="#contact-form" class="default-btn-one">Grow Your Wealth Now!</a>
                   </div>
               </div>
@@ -128,7 +125,7 @@
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
               <div class="services">  
-                <a href=""><i class="bi bi-currency-dollar"></i></a> 
+                <a href="" ></a> <i class="bi bi-currency-dollar"></i>
               </div>
               <div class="member-info">
                 <h4>Do you have a lot of credit card debt?</h4>
@@ -143,7 +140,8 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="services">  <a href=""><i class="bi bi-piggy-bank"></i></a> 
+              <div class="services">  
+                <a href=""></a> <i class="bi bi-piggy-bank"></i>
               </div>
               <div class="member-info">
                 <h4>Do you have an emergency fund?</h4>
@@ -205,7 +203,7 @@
                                    financial goals. This technique is called portfolio rebalancing.</li>
                         </ul>
                         </p>
-                        <p> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>  
+                        <p class="mb-2"> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>  
                       </div>
                       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                           <h3>Pick your own investments</h3>

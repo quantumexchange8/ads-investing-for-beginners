@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #1c3564;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #1c3564;
   text-decoration: none;
 }
 
@@ -553,7 +553,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #37517e;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1173,15 +1173,20 @@ section {
   height: 32px;
   background: #eff2f8;
 }
+.team .member .services a i {
+color:#37517e;
+width: 20px;
+
+}
 
 .team .member .social a i {
-  color: #37517e;
+  color: #273f69;
   font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .social a:hover {
-  background: #47b2e4;
+  background: #1c283d;
 }
 
 .team .member .social a:hover i {
