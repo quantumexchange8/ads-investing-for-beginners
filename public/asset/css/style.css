@@ -148,6 +148,22 @@ p:last-child {
   color: #0f3041;
 }
 
+.default-btn-three {
+  background-color: #ffffff ;
+  border:1px solid rgb(32, 58, 71);
+  color: rgb(32, 58, 71);
+  padding: 13px 25px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.default-btn-three:hover {
+  border:1px solid white;
+  background-color: rgba(18, 48, 83, 0);;
+  color: #ffffff;
+
+}
+
 .section-title {
   max-width: 700px;
   margin: 0 auto 10px;
@@ -1165,7 +1181,8 @@ Hero Slider Area
 }
 
 .hero-slider.owl-theme .owl-nav .owl-prev:hover, .hero-slider.owl-theme .owl-nav .owl-next:hover {
-  background-color: rgb(16, 57, 104);
+  background-color: rgb(24, 53, 87);
+  border: 1px solid white;
   color:white;
 }
 

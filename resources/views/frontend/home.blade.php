@@ -4,7 +4,7 @@
 <main id="main">
 <!-- Tips Investing ---->
 <section id="team" class="team skills">
-<div class="about-area ptb-100">
+  <div class="about-area ptb-100">
   <div class="container">
       <div class="row align-items-center">
           <div class="mr-3 col-lg-5 mr-3">
@@ -15,6 +15,7 @@
 
           <div class="col-lg-7">
               <div class="about-text">
+
                   <div class="section-title">
                       <h2>Tips for Successful Investing: Building a Solid Foundation</h2>
                   </div>
@@ -52,25 +53,23 @@
                     </div>
                   </div>
 
-                  <div class="row mt-2 mb-2">
+                <div class="row mt-2 mb-2">
                   <div class="col-lg-12">
                       <ul>
-                        <li>
-                          <i class="las la-check-square"></i>Think Long-Term:
-                        </li>
-                          <p>Investing is a marathon, not a sprint. Embrace a patient mindset and focus on the long-term horizon.
-                          </p>
+                        <li><i class="las la-check-square"></i>Think Long-Term:</li>
+                          <p>Investing is a marathon, not a sprint. Embrace a patient mindset and focus on the long-term horizon.</p>
                           <p class="mb-4">Short-term market fluctuations are inevitable, but a well-thought-out strategy, grounded in 
-                                          your financial objectives, can weather the storms and capitalize on the growth potential of your investments over time.
+                            your financial objectives, can weather the storms and capitalize on the growth potential of your investments over time.
                           </p>
                       </ul>
                   </div>
-                  </div>
+                </div>
+
               </div>
           </div>
       </div>
   </div>
-</div>
+  </div>
 </section>
 <!--End of Tips Investing --->
 
@@ -275,6 +274,7 @@
 </section>
 <!--End of How can i investSection -->
 
+
 <!--Types of Investment Section-->
 <div class="hero-slider hero-slider-two owl-carousel owl-theme">
   <div class="hero-slider-item item-bg4">
@@ -307,7 +307,7 @@
       </div>
   </div>
 
-  <div class="hero-slider-item item-bg6">
+  <div class="hero-slider-item item-bg6" >
       <div class="d-table">
           <div class="d-table-cell">
               <div class="container">
@@ -390,7 +390,7 @@
               <div class="low-card-two">
                   <i class="bi bi-briefcase-fill"></i>
                   <h3>Bonds</h3>
-                  <p>any financial planners advocate investing in bonds because of their lower volatility and relative safety compared with stocks.
+                  <p>Any financial planners advocate investing in bonds because of their lower volatility and relative safety compared with stocks.
                      But not all bonds are equal, and investors need some strategies for investing in bonds and building their bond allocation the right way.</p>
               </div>
             </div>
@@ -399,7 +399,7 @@
               <div class="low-card-two">
                   <i class="bi bi-building"></i>
                   <h3>Estate</h3>
-                  <p>real estate investing offers numerous tax advantages, including deductions for operating costs and depreciation and the potential to defer 
+                  <p>Real estate investing offers numerous tax advantages, including deductions for operating costs and depreciation and the potential to defer 
                      capital gains taxes through like-kind exchanges or investing in real estate investment trusts (REITs).</p>
               </div>
             </div>
@@ -408,8 +408,8 @@
       </div>
   </div>
 </div>
-
 <!--End of Types of Investment Section-->
+
 
 <!--Start of Investment Principle Section-->
 <section id="client" class="section section-bg">
@@ -619,19 +619,11 @@
   </section>
   <!-- End Investment plan Section -->
 
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous">
-</script>
-
 
 <!--FAQ and Submit Form Section-->
 <div class="faq-area ptb-100 section-bg">
-
   <div class="container">
- 
       <div class="row align-items-center">
-     
-
           <div class="col-lg-6 col-md-12">
             <div class="section-title">
               <h2>Frequently Asked Questions</h2>
@@ -643,7 +635,6 @@
                               <i class="las la-plus"></i>
                               What is investing, and why should I consider it as a beginner?
                           </a>
-
                           <p class="accordion-content show">
                             Investing involves putting your money to work with the goal of generating returns over time. It's a pathway to wealth-building, financial security,
                             and achieving long-term financial goals.   
@@ -655,7 +646,6 @@
                               <i class="las la-plus"></i>
                               How much money do I need to start investing?
                           </a>
-
                           <p class="accordion-content">
                             You can start with as little as you're comfortable with. Many investment platforms allow you to begin with small amounts. 
                             The key is consistency in contributions. 
@@ -667,7 +657,6 @@
                               <i class="las la-plus"></i>
                               What are some beginner-friendly investment options?
                           </a>
-
                           <p class="accordion-content">
                             Consider diversified options like index funds, ETFs, or target-date funds. These provide broad exposure and are relatively less 
                             volatile than individual stocks.     
@@ -679,7 +668,6 @@
                               <i class="las la-plus"></i>
                               Is investing risky, and can I lose all my money?
                           </a>
-
                           <p class="accordion-content">
                             All investments come with some level of risk. However, diversification and a long-term perspective can help mitigate risks. 
                             It's crucial to understand your risk tolerance and invest accordingly.       
@@ -691,26 +679,21 @@
                               <i class="las la-plus"></i>
                               How do I choose the right investment strategy? 
                           </a>
-
                           <p class="accordion-content">
                             Start by defining your financial goals and risk tolerance. Consider factors like time horizon and the level of involvement you want. 
                             Consult with a financial advisor if needed.   
                           </p>
                       </li>
-
-                   
                   </ul>
               </div>
           </div>
 
           <div class="col-lg-6 col-md-12">
-          
             <div class="contact-form" id="contact-form">
               <form method="POST" name="contact-form" action="https://sheetdb.io/api/v1/vktjbmdq0a1ub" onsubmit="return disableButton()"  role="form" id="sheetdb-form">
                   <div class="section-title mb-2">
                       <h2>Invest in Your Future Prosperity</h2>  
                   </div> 
-
                   <div class="row">
                       <div class="col-md-12">
                           <div class="form-group">
@@ -755,7 +738,6 @@
           </div> 
       </div>
   </div>
-
 </div>
 
 <script>
