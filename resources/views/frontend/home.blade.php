@@ -125,7 +125,7 @@
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
               <div class="services">  
-                <a href="" ></a> <i class="bi bi-currency-dollar"></i>
+                 <i class="bi bi-currency-dollar"></i>
               </div>
               <div class="member-info">
                 <h4>Do you have a lot of credit card debt?</h4>
@@ -141,7 +141,7 @@
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
               <div class="services">  
-                <a href=""></a> <i class="bi bi-piggy-bank"></i>
+             <i class="bi bi-piggy-bank"></i>
               </div>
               <div class="member-info">
                 <h4>Do you have an emergency fund?</h4>
@@ -216,7 +216,7 @@
                           </p>
                      </div>
 
-                     <div class="about-btn">
+                     <div class="about-btn mb-2">
                       <a href="#contact-form" class="default-btn-two">Secure Your Future</a>
                     </div>
                   </div>
@@ -395,111 +395,6 @@
 </div>
 <!--End of Types of Investment Section-->
 
-
-<!--Start of Investment Principle Section-->
-<section id="client" class="section section-bg">
-  <div class="container" data-aos="fade-up">
-    <div class="section-title">
-      <h2>Fundamental Investing Principles</h2>
-    </div>
-    <div class="row justify-content-center mt-1 pt-2">
-      <div class="col-lg-12">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <div class="client-box mt-4">
-                          <div class="row">
-                              <div class="col-lg-5">
-                                  <div class="client-img mt-4">
-                                      <img src="images/users/risk.png" class="img-fluid" alt="">
-                                  </div>
-                              </div>
-                              <div class="col-lg-7">
-                                  <div class="mt-4">
-                                      <div class="client-content">
-                                          <h4 class="f-20"><a href="#" class="text-dark">Risk-Return Tradeoff
-                                          </a></h4>
-                                          <p>
-                                            The risk-return tradeoff posits that to pursue higher potential returns, investors must accept higher levels of risk, 
-                                            and conversely, minimizing risk involves sacrificing potential returns. </p>
-                                           <p>This concept is reflected in various asset classes: low-risk options like cash equivalents (e.g., CDs, Treasury bills) offer lower returns, 
-                                            while higher-risk assets like stocks present the potential for greater returns. A well-structured investment portfolio often combines different 
-                                            assets to strike an optimal balance between risk and reward.</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="client-box mt-4">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <div class="client-img mt-4">
-                                    <img src="images/users/diverse.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="mt-4">
-                                    <div class="client-content">
-                                        <h4 class="f-20"><a href="#" class="text-dark">Diversification
-                                        </a></h4>
-                                        <p>Diversification is crucial for optimizing investment performance by enhancing efficiency, measured as potential return per unit of risk. 
-                                           This strategy entails combining assets with diverse risk profiles that move independently. </p>
-                                        <p>When one asset's value changes, others may move 
-                                           in a different direction, creating a balanced portfolio. The goal is to maintain a relatively stable and upward-trending portfolio value over 
-                                           time, fostering the potential for superior long-term returns.</p> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="client-box mt-4">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <div class="client-img mt-4">
-                                    <img src="images/users/time.png" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="mt-4">
-                                    <div class="client-content">
-                                        <h4 class="f-20"><a href="#" class="text-dark">Time Value of Money
-                                        </a></h4>
-                                        <p>
-                                          Understanding the risk-reward tradeoff and the benefits of diversification is fundamental for investors. Additionally, recognizing the 
-                                          time value of money is crucial, highlighting the idea that a dollar today is more valuable than a dollar tomorrow due to its potential 
-                                          to earn interest and grow over time. </p>
-                                        <p>To capitalize on compound interest and passively accumulate wealth, financially-minded individuals should invest early and consistently
-                                           over an extended period.
-                                        </p> 
-                                        <p>Before launching an investment program, it's essential to establish an adequate emergency fund, typically equivalent to six to twelve months of living expenses. 
-                                           This precaution serves as a financial safety net before engaging in more long-term investment strategies.
-                                       </p> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-           <ol class="carousel-indicators mb-0 rounded">
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
-                </li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                </li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                </li>
-           </ol>
-          </div>    
-      </div>       
-    </div>
-  </div>
-</section>
-<!--End of Investment Principle Section-->
-
   <!-- ======= invest plan Section ======= -->
   <section id="services" class="services ">
     <div class="container" data-aos="fade-up">
@@ -519,7 +414,7 @@
         <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4 " data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-search"></i></div>
-            <h4><a href="">Find when and how much you are saving</a></h4>
+            <h4>Find when and how much you are saving</h4>
             <p>This is the first step of investment planning. As soon as we are employed we should start saving. Whatever our salary is 
                we should not spend all of it and start saving for our retirement and unforeseen emergencies.
             </p>
@@ -529,7 +424,7 @@
         <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4 " data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-bullseye"></i></div>
-            <h4><a href="">Set your financial goals</a></h4>
+            <h4>Set your financial goals</h4>
             <p>We need to identify our short term as well as long term goals. This is how we start goal setting in investment planning. 
                Our goals can be saving for a vacation or buying some gadget which we really want to own. This can be termed as short term goal as 
                saving required for this is less than twelve months.
@@ -542,7 +437,7 @@
         <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4 " data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-graph-up"></i></div>
-            <h4><a href="">Analyse your risk taking ability</a></h4>
+            <h4>Analyse your risk taking ability</h4>
             <p>We should know our risk taking appetite. If we have just start earning then our risk taking appetite is very less. 
                We should invest in those investment vehicles which has less like fixed deposits. People who have ample money to save, their risk 
                taking appetite in more. They should invest in those investment products which have higher risk like investing in index stocks or mutual funds. 
@@ -553,7 +448,7 @@
         <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-layer"></i></div>
-            <h4><a href="">Create a savings portfolio</a></h4>
+            <h4>Create a savings portfolio</h4>
             <p>One should have a diversified portfolio which should include many investment vehicles such as stocks, gold, bonds, fixed deposit, real estate etc.
                The main purpose to have a diversify portfolio is to diversify the risk associated with investment vehicles. Some investment tools may be less 
                liquated than other.
@@ -566,7 +461,7 @@
           <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-book"></i></div>
-              <h4><a href="">Learn about all investment options</a></h4>
+              <h4>Learn about all investment options</h4>
               <p>Before we start investing in we need to learn about all the investment options available in the financial market. 
                  We need to go through all the investment vehicles such stocks, bonds, gold, real estate, life insurance etch and compare 
                  the rate of returns and risks associated with it. It will help us in putting our money in the investment vehicle according
@@ -578,7 +473,7 @@
           <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-calculator"></i></div>
-              <h4><a href=""> Calculate your asset allocation</a></h4>
+              <h4> Calculate your asset allocation</h4>
               <p>After determining the risk return portfolio the investor can develop our asset allocation strategy in investment planning. 
                  The investor can select from the various asset classes available in the financial market and allocate assets in such a way 
                  that it achieves optimum diversification while targeting the expected returns.
@@ -591,7 +486,7 @@
           <div class="col-xl-6 col-md-auto d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-person-workspace"></i></div>
-              <h4><a href="">Know how to build your portfolio</a></h4>
+              <h4>Know how to build your portfolio</h4>
               <p>The most important step in investment planning is implementing the portfolio plan. After we implement our portfolio plan the management 
                  process begins. It is necessarily to monitor the investment performance regularly, mostly quarterly and review the portfolio plan annually. 
                  The investor’s goals and situations should be reviewed once a year to determine whether there are any significant changes.
