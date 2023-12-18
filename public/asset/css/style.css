@@ -4413,23 +4413,46 @@ Gallery  Area
 .slick-next {
     color:  #134057;
 }
-
 .slick-prev.slick-arrow:before {
-        content: '←'; /* Provide arrow content */
-        color: #134057; /* Change color to blue */
-        font-size: 32px; /* Adjust font size as needed */
+  content: '←';
+  color: #134057;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust the left position as needed */
+ 
+  z-index: 1;
+  transform: translateX(-1.3rem);
+}
+
+/* Add margin between arrow and slider-item on smaller screens */
+@media (max-width: 767px) {
+  .slick-prev.slick-arrow:before {
+      left: 10px; /* Adjust the left position for smaller screens */
+  }
+}
+
+      .slick-next.slick-arrow:before {
+        content: '→';
+        color: #134057;
+        font-size: 32px;
+        position: absolute;
         top: 50%;
-      }
-
-.slick-next.slick-arrow:before {
-          content: '→'; /* Provide arrow content */
-          color: #134057; /* Change color to blue for the next arrow */
-          font-size: 32px; /* Adjust font size as needed for the next arrow */
-          top: 50%;
-         
-      }
-
      
+        z-index: 1;
+    }
+    
+  
+    
+    /* Add margin between arrows and slider-item on smaller screens */
+    @media (max-width: 767px) {
+        .slick-prev.slick-arrow:before,
+        .slick-next.slick-arrow:before {
+            left: 5px; /* Adjust the left position for smaller screens */
+            top: 50%; /* Center both arrows vertically */
+        }
+    }
+
       .slick-dots {
         display: flex;
         justify-content: center;
