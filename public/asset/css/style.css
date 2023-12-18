@@ -1095,7 +1095,7 @@ Hero Slider Area
 }
 
 .hero-slider .hero-slider-item.item-bg1 {
-  background-image: url("../img/hero-slider/slider-1.jpg");
+  background-color:#223c6b;
 }
 
 .hero-slider .hero-slider-item.item-bg2 {
@@ -4390,15 +4390,66 @@ Gallery  Area
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
 }
 
-
-
- #slick .slider-contents .slider-items img{
-  width:800px;
-  margin: 0 auto;
+#slick .slider_content .slider_items img{
+  width:auto;
+  margin: auto;
   display: block;
- 
- }
- 
+  margin-left:25px;
+}
+.slider-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px; /* Add padding */
+  position: relative;
+}
+.slider-item {
+  text-align: center;
+  margin-bottom: 20px; /* Add margin */
+}
+.slider-item img {
+  max-width: 90%; /* Set to 50% of the screen width */
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto; /* Center the image */
+}
+.slick-prev,
+.slick-next {
+    color:  #134057;
+}
 
+.slick-prev.slick-arrow:before {
+        content: '←'; /* Provide arrow content */
+        color: #134057; /* Change color to blue */
+        font-size: 32px; /* Adjust font size as needed */
+        top: 50%;
+      margin-right: 20px;}
 
+.slick-next.slick-arrow:before {
+          content: '→'; /* Provide arrow content */
+          color: #134057; /* Change color to blue for the next arrow */
+          font-size: 32px; /* Adjust font size as needed for the next arrow */
+          top: 50%;
+         
+      }
+
+     
+      .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; /* Adjust margin as needed */
+    }
+
+    .slick-dots button {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        margin: 0 5px; /* Adjust spacing between dots */
+        cursor: pointer;
+    }
+   
+ 
 /*# sourceMappingURL=style.css.map */

@@ -20,11 +20,9 @@ src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9F
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <!-- Add the slick-theme.css if you want default styling -->
-
-  
-
-
-  <!--Envanto template -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<!--Envanto template -->
   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
   <!-- Animate CSS -->
   <link rel="stylesheet" href="asset/css/animate.min.css">
@@ -44,16 +42,8 @@ src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9F
   <link rel="stylesheet" href="asset/css/style.css">
   <!-- Stylesheet Responsive CSS -->
   <link rel="stylesheet" href="asset/css/responsive.css">
-  <!-- Theme Dark CSS -->
-<!--
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
--->
 
-<link rel="stylesheet" href="slick/slick.css">
-  <!--Envanto Template ----->
-
-  
-  <!-- Vendor CSS Files -->
+<!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -139,31 +129,24 @@ src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9F
   <script src="asset/js/custom.js"></script>
   <!--- End of 4 tips -->
 <!---Slick-------------->
-<!--<script
-  src="https://code.jquery.com/jquery-3.7.1.min.js"
-  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script type="text/javascript">
 
-
-$('.single-item').slick();
-		
-</script> -->
-
-<script src="slick/slick.min.js"></script>
-<script type="text/javascript">
-
-
- $('.slider-contents').slick({
-  prevArrow:'<i class="fas fa-angle-left left_arrow"></i>',
-  nextArrow:'<i class="fas fa-angle-right right_arrow"></i>',
- });
-
- 
-
-  </script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            // Slick.js configuration options
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+             adaptiveHeight: true 
+        });
+    });
+</script>
 </body>
 
 </html>
