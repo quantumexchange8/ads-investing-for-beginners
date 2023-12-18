@@ -234,7 +234,6 @@
 </div>
 <!-- End of Strategies --->
 
-
 <!-- ======= How can i invest Section ======= -->
 <section id="skills" class="skills ">
       <div class="container" data-aos="fade-up">
@@ -258,6 +257,8 @@
       </div>
 </section>
 <!--End of How can i investSection -->
+
+<!--------Slider for Stock Chart----------->
 <section class="section-bg">
   <div class="slider-container">
     <div class="slider">
@@ -345,7 +346,7 @@
     </div>
   </div>
 </section>
-
+<!--------End of Slider for Stock Chart----------->
 
 
 <!--Types of Investment Section-->
@@ -735,29 +736,6 @@
 </script>
 
 
-<!--<section id="slick" class="section-bg">
-  <div class="container">
-    <div class="row justify-content-center align-content-center">
-      <div class="col-lg-10">
-        <div class="slider_content">
-          <div class="slider_items">
-            <img src="asset/img/banner/akamai.jpg">          
-          </div>
-          <div class="slider_items">
-            <img src="asset/img/banner/apollo.jpg">          
-          </div>
-          <div class="slider_items">
-            <img src="asset/img/banner/assurant.jpg">          
-          </div>
-   
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-</section>
--->
 
 
 

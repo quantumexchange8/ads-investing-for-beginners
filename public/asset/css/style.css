@@ -4402,7 +4402,7 @@ Gallery  Area
   margin-bottom: 20px; /* Add margin */
 }
 .slider-item img {
-  max-width: 90%; /* Set to 50% of the screen width */
+  max-width: 89%; /* Set to 50% of the screen width */
   max-width: 100%;
   height: auto;
   display: inline-block;
@@ -4411,11 +4411,11 @@ Gallery  Area
 }
 .slick-prev,
 .slick-next {
-    color:  #134057;
+    color:  rgb(24, 53, 87);
 }
 .slick-prev.slick-arrow:before {
   content: '←';
-  color: #134057;
+  color: rgb(32, 72, 117);
   font-size: 32px;
   position: absolute;
   top: 50%;
@@ -4434,7 +4434,7 @@ Gallery  Area
 
       .slick-next.slick-arrow:before {
         content: '→';
-        color: #134057;
+        color: rgb(32, 72, 117);
         font-size: 32px;
         position: absolute;
         top: 50%;
