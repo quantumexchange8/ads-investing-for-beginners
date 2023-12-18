@@ -132,21 +132,20 @@ src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9F
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
+
 <script>
     $(document).ready(function(){
-        $('.slider').slick({
-            // Slick.js configuration options
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: true,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear',
-             adaptiveHeight: true 
-        });
+
+      $('.slider').slick();
+
+ 
     });
 </script>
+
 </body>
 
 </html>

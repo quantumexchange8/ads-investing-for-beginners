@@ -258,7 +258,93 @@
       </div>
 </section>
 <!--End of How can i investSection -->
+<section class="section-bg">
+  <div class="slider-container">
+    <div class="slider">
+  
+            <div class="slider-item">
+            <img src="asset/img/banner/apollo.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/akamai.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/assurant.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/Axcellis.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/Chipotle.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>   
+            <div class="slider-item">
+            <img src="asset/img/banner/console.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/ECOLAB.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/euroseas.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/expedia.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/INSIGHT.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/KADANT.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/kinsale.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/lily.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/Marriot.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/moody.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/MOTOROLA.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/nrg.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/OneMain.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/owens.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/ph.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/ralph.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/saia.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/super micro.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/vertex.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/watsco.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
+            <div class="slider-item">
+            <img src="asset/img/banner/wesco.jpg"  data-lightbox="slider" alt="Slider Image">
+            </div>
 
+
+    </div>
+  </div>
+</section>
 
 
 
@@ -501,6 +587,7 @@
   </section>
   <!-- End Investment plan Section -->
 
+  
 <!--FAQ and Submit Form Section-->
 <div class="faq-area ptb-100 section-bg">
   <div class="container">
@@ -671,93 +758,7 @@
   </div>
 </section>
 -->
-<section class="section-bg">
-  <div class="slider-container">
-    <div class="slider">
-  
-            <div class="slider-item">
-                <img src="asset/img/banner/apollo.jpg"  data-lightbox="slider" alt="Slider Image">
-            </div>
-            <div class="slider-item">
-              <img src="asset/img/banner/akamai.jpg"  data-lightbox="slider" alt="Slider Image">
-          </div>
-          <div class="slider-item">
-            <img src="asset/img/banner/assurant.jpg"  data-lightbox="slider" alt="Slider Image">
-        </div>
-        <div class="slider-item">
-          <img src="asset/img/banner/Axcellis.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/Chipotle.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>   
-      <div class="slider-item">
-      <img src="asset/img/banner/console.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/ECOLAB.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/euroseas.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/expedia.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/INSIGHT.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/KADANT.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/kinsale.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/lily.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/Marriot.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/moody.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/MOTOROLA.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/nrg.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/OneMain.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/owens.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/ph.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/ralph.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/saia.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/super micro.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/vertex.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/watsco.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
-      <div class="slider-item">
-        <img src="asset/img/banner/wesco.jpg"  data-lightbox="slider" alt="Slider Image">
-      </div>
 
-
-    </div>
-  </div>
-</section>
 
 
 <!--End of FAQ---->
