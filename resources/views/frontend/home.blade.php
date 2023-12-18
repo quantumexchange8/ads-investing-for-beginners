@@ -264,83 +264,86 @@
     <div class="slider">
   
             <div class="slider-item">
-            <img src="asset/img/banner/apollo.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/apollo.jpg"  data-lightbox="slider" alt="Slide 1">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/akamai.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/akamai.jpg"  data-lightbox="slider" alt="Slide 2">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/assurant.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/assurant.jpg"  data-lightbox="slider" alt="Slide 3">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/Axcellis.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/Axcellis.jpg"  data-lightbox="slider" alt="Slide 4">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/Chipotle.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/Chipotle.jpg"  data-lightbox="slider" alt="Slide 5">
             </div>   
             <div class="slider-item">
-            <img src="asset/img/banner/console.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/console.jpg"  data-lightbox="slider" alt="Slide 6">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/ECOLAB.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/ECOLAB.jpg"  data-lightbox="slider" alt="Slide 7">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/euroseas.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/euroseas.jpg"  data-lightbox="slider" alt="Slide 8">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/expedia.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/expedia.jpg"  data-lightbox="slider" alt="Slide 9">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/INSIGHT.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/INSIGHT.jpg"  data-lightbox="slider" alt="Slide 10">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/KADANT.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/KADANT.jpg"  data-lightbox="slider" alt="Slide 11">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/kinsale.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/kinsale.jpg"  data-lightbox="slider" alt="Slide 12">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/lily.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/lily.jpg"  data-lightbox="slider" alt="Slide 13">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/Marriot.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/Marriot.jpg"  data-lightbox="slider" alt="Slide 14">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/moody.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/moody.jpg"  data-lightbox="slider" alt="Slide 15">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/MOTOROLA.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/MOTOROLA.jpg"  data-lightbox="slider" alt="Slide 16">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/nrg.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/nrg.jpg"  data-lightbox="slider" alt="Slide 17">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/OneMain.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/OneMain.jpg"  data-lightbox="slider" alt="Slide 18">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/owens.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/owens.jpg"  data-lightbox="slider" alt="Slide 19">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/ph.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/ph.jpg"  data-lightbox="slider" alt="Slide 20">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/ralph.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/ralph.jpg"  data-lightbox="slider" alt="Slide 21">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/saia.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/saia.jpg"  data-lightbox="slider" alt="Slide 22">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/super micro.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/super micro.jpg"  data-lightbox="slider" alt="Slide 23">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/vertex.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/vertex.jpg"  data-lightbox="slider" alt="Slide 24">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/watsco.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/watsco.jpg"  data-lightbox="slider" alt="Slide 25">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/wesco.jpg"  data-lightbox="slider" alt="Slider Image">
+            <img src="asset/img/banner/wesco.jpg"  data-lightbox="slider" alt="Slide 26">
             </div>
+            <div class="slider-item">
+              <img src="asset/img/banner/mr cooper.jpg"  data-lightbox="slider" alt="Slide 27">
+              </div>
 
 
     </div>
