@@ -133,11 +133,7 @@ src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9F
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-
-
-
-
-<script>
+<script type="text/javascript">
 $('.slider').slick({
   dots:false,
 autoplay: true,

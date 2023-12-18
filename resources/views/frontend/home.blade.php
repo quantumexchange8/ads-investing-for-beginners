@@ -343,8 +343,7 @@
             </div>
             <div class="slider-item">
               <img src="asset/img/banner/mr cooper.jpg"  data-lightbox="slider" alt="Slide 27">
-              </div>
-
+            </div>
 
     </div>
   </div>
@@ -737,11 +736,6 @@
                 });
           });
 </script>
-
-
-
-
-
 <!--End of FAQ---->
 
 </main>
