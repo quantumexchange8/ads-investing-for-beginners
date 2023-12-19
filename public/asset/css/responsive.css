@@ -28,7 +28,7 @@
     padding-top: 17px;
   }
   .hero-slider .hero-slider-item .slider-content {
-    padding-top: 220px;
+    padding-top: 100px;
     padding-bottom: 135px;
   }
   .hero-slider .hero-slider-item .slider-content h1 {
@@ -293,7 +293,7 @@
     font-size: 30px;
   }
   .case-details-tab .case-details-tab-item .nav-pills .nav-link {
-    width: 90px;
+    width: 104px;
     margin-right: 5px;
     font-size: 12px;
     padding: 10px 0;
