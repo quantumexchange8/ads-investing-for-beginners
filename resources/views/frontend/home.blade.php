@@ -700,6 +700,7 @@
                               <i class="las la-sms"></i>
                           </div>
                       </div>
+                      <input type="hidden" name="timestamp" id="timestamp">
                       <div class="col-lg-12 col-md-12">
                           <button type="submit" id="btn" class="default-btn-one">Submit</button>
                       </div>
@@ -710,32 +711,37 @@
       </div>
   </div>
 </div>
+ <script>
+        function disableButton() {
+            let btn = document.getElementById('btn');
+            btn.disabled = true;
+            btn.innerText = 'Posting..';
+            return true;
+        }
 
-<script>
-    function disableButton(){
-          let btn=document.getElementById('btn');
-          btn.disabled=true;
-          btn.innerText='Posting..';
-          return true;
-    }
+        var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
 
-          var form = document.getElementById('sheetdb-form');
-          form.addEventListener("submit", e => {
-              e.preventDefault();
-              fetch(form.action, {
-                  method : "POST",
-                  body: new FormData(document.getElementById("sheetdb-form")),
-              }).then(response => response.json())
+            // Add a timestamp to the data
+            var timestamp = new Date().toLocaleString('en-GB'); // Adjust the locale to your preference
+            var formData = new FormData(document.getElementById("sheetdb-form"));
+            formData.append("data[timestamp]", timestamp);
+
+            fetch(form.action, {
+                method: "POST",
+                body: formData,
+            }).then(response => response.json())
                 .then((html) => {
-                  swal("Thank You!", "Your detail has been successfully submitted", "success");
-                  document.getElementById("sheetdb-form").reset();
-                  let btn=document.getElementById('btn');
-                  btn.disabled=false;
-                  btn.innerText='Submit';
-                  return false;
+                    swal("Thank You!", "Your detail has been successfully submitted", "success");
+                    document.getElementById("sheetdb-form").reset();
+                    let btn = document.getElementById('btn');
+                    btn.disabled = false;
+                    btn.innerText = 'Submit';
+                    return false;
                 });
-          });
-</script>
+        });
+    </script>
 <!--End of FAQ---->
 
 </main>
