@@ -4492,9 +4492,17 @@ Gallery  Area
         margin: 0 5px; /* Adjust spacing between dots */
         cursor: pointer;
     }
+    #strategy-section {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      -webkit-transition: opacity 0.5s ease-in-out;
+      -moz-transition: opacity 0.5s ease-in-out;
+      -ms-transition: opacity 0.5s ease-in-out;
+      -o-transition: opacity 0.5s ease-in-out;
+}
 
- 
-  
-   
+  #strategy-section.visible {
+      opacity: 1;
+  }
 
 /*# sourceMappingURL=style.css.map */

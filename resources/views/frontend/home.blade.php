@@ -90,8 +90,8 @@
                          secure retirement. The power of compounding ensures that your money works for you, allowing you to enjoy the golden years with peace of mind</p>
                   </div>
                   
-                  <div class="about-btn mb-2">
-                    <a href="#contact-form" class="default-btn-one">Grow Your Wealth Now!</a>
+                  <div class="about-btn mb-3 d-flex justify-content-center align-items-center">
+                    <a href="#contact-form" class="default-btn-one ">Grow Your Wealth Now!</a>
                   </div>
               </div>
           </div>
@@ -125,7 +125,7 @@
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
               <div class="services">  
-                 <i class="bi bi-currency-dollar"></i>
+                <!-- <i class="bi bi-currency-dollar"></i>-->
               </div>
               <div class="member-info">
                 <h4>Do you have a lot of credit card debt?</h4>
@@ -141,7 +141,7 @@
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
               <div class="services">  
-             <i class="bi bi-piggy-bank"></i>
+            <!-- <i class="bi bi-piggy-bank"></i>-->
               </div>
               <div class="member-info">
                 <h4>Do you have an emergency fund?</h4>
@@ -169,69 +169,94 @@
                   <h2>Pick Your Investment Strategies</h2>
                   <ul class="nav nav-pills" id="pills-tab" role="tablist">
                       <li class="nav-item">
-                          <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Financial Advisor</a>
+                          <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"
+                              onclick="changeImage('financial-advisor')">Financial Advisor</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Robo-Advisor</a>
+                          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"
+                              onclick="changeImage('robo-advisor')">Robo-Advisor</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Self-Directed</a>
+                          <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"
+                              onclick="changeImage('self-directed')">Self-Directed</a>
                       </li>
                   </ul>
-                  <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-content active-tab-content" id="pills-tabContent">
+                      <!-- Content for Financial Advisor tab -->
                       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                           <h3>Hands-off investments managed by a human</h3>
                           <p>
-                            If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services — 
-                            sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.
+                              If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services —
+                              sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.
                           </p>
                           <p>With this strategy, a financial advisor builds and manages your investments on your behalf.
-                            This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
+                              This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
                           </p>
                       </div>
+                      <!-- Content for Robo-Advisor tab -->
                       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                           <h3>Hands-off investments managed by an algorithm</h3>
-                          <p> Some brokerages offer access to an automated investment service called a robo-advisor. Despite the name, this service 
-                            isn’t administered by a robot, but it is made possible by sophisticated investment algorithms.
+                          <p> Some brokerages provide access to robo-advisors, automated investment services that use sophisticated algorithms. Here's how it works:
                           </p>
-                        <p> Here’s how it works:
-                        <ul>
-                              <li> First, you fill out an online application to open an account.</li>
-                              <li> Next, you answer a series of questions about your financial goals and how much risk you’re willing to take with your investments.</li>
-                              <li> Then, the robo-advisor puts together a portfolio on your behalf based on your questionnaire responses.</li>
-                              <li> The robo-advisor uses complex algorithms to monitor your account, moving investments in and out of your portfolio according to your 
-                                   financial goals. This technique is called portfolio rebalancing.</li>
-                        </ul>
-                        </p>
-                        <p class="mb-2"> This strategy is best for investors who don’t want to manage their own investments and feel comfortable entrusting their money to a digital service.</p>  
+                          <p>
+                              <ul>
+                                  <li>Fill out an online application</li>
+                                  <li>Answer questions about financial goals and risk tolerance</li>
+                                  <li>The robo-advisor creates and manages a portfolio based on your responses. The system employs complex algorithms for continuous
+                                      account monitoring and portfolio rebalancing.</li>
+                              </ul>
+                          </p>
                       </div>
+                      <!-- Content for Self-Directed tab -->
                       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                           <h3>Pick your own investments</h3>
-                          <p> For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go. 
-                              This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing. 
+                          <p> For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go.
+                              This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing.
                               You’ll also be solely responsible for monitoring your investments and making adjustments over time as needed.
                           </p>
-                          <p>This strategy is best for investors who want to manage their investments firsthand and don’t mind the extra homework 
-                             that often comes with managing a portfolio solo. 
+                          <p>This strategy is best for investors who want to manage their investments firsthand and don’t mind the extra homework
+                              that often comes with managing a portfolio solo.
                           </p>
-                     </div>
+                      </div>
 
-                     <div class="about-btn mb-2">
-                      <a href="#contact-form" class="default-btn-two">Secure Your Future</a>
-                    </div>
+                      <div class="about-btn mb-2">
+                          <a href="#contact-form" class="default-btn-two">Secure Your Future</a>
+                      </div>
                   </div>
               </div>
           </div>
           <div class="col-lg-6">
               <div class="case-details-tab-item">
-                  <div class="case-details-tab-img">
-                      <img src="asset/img/strategies.png" alt="Image">
+                  <div class="case-details-tab-img" id="strategy-image">
+                      <!-- The default image is loaded on page load -->
+                      <img src="asset/img/strategies.png" alt="Default Image" class="loaded">
                   </div>
               </div>
           </div>
       </div>
   </div>
 </div>
+
+<script>
+  // Load the default image on page load
+  window.onload = function () {
+      changeImage('financial-advisor');
+  };
+
+  function changeImage(strategy) {
+      // Get the image element
+      var imageElement = document.getElementById('strategy-image');
+
+      // Change the image source based on the selected strategy
+      if (strategy === 'financial-advisor') {
+          imageElement.innerHTML = '<img src="asset/img/strategies.png" alt="Financial Advisor Image" class="loaded">';
+      } else if (strategy === 'robo-advisor') {
+          imageElement.innerHTML = '<img src="asset/img/robo.png" alt="Robo-Advisor Image" class="loaded">';
+      } else if (strategy === 'self-directed') {
+          imageElement.innerHTML = '<img src="asset/img/self.png" alt="Self-Directed Image" class="loaded">';
+      }
+  }
+</script>
 <!-- End of Strategies --->
 
 <!-- ======= How can i invest Section ======= -->
@@ -239,7 +264,7 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/skills.png" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/skills.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>How can I Invest with Little Money?</h3>

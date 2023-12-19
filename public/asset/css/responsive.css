@@ -39,7 +39,7 @@
     font-size: 12px;
   }
   .hero-slider .hero-slider-item .slider-content span::before {
-    width: 70px;
+    width: 65px;
   }
   .hero-slider .hero-slider-item .slider-content p {
     font-size: 12px;
@@ -484,6 +484,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   .top-header .right-info li {
     font-size: 12px;
   }
