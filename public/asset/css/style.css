@@ -1309,6 +1309,8 @@ Law Card Area
   padding: 45px 25px;
   border-radius: 5px;
   position: relative;
+  height:400px;
+
 }
 
 .low-card-two i {
@@ -1328,6 +1330,7 @@ Law Card Area
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 
 .low-card-two h3 {
   font-size: 22px;

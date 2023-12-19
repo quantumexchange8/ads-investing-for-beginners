@@ -455,28 +455,34 @@
           <div class="row">
             <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div class="low-card-two">
+            
                   <i class="bi bi-bar-chart-line"></i>
                   <h3>Stock</h3>
                   <p>Dividends are another way stocks can earn you money. Depending on the company, it will pay out a part of its earnings per share, often four times a year, 
                      according to a set schedule.</p>
+                
               </div>
             </div>
 
             <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div class="low-card-two">
+             
                   <i class="bi bi-briefcase-fill"></i>
                   <h3>Bonds</h3>
                   <p>Any financial planners advocate investing in bonds because of their lower volatility and relative safety compared with stocks.
                      But not all bonds are equal, and investors need some strategies for investing in bonds and building their bond allocation the right way.</p>
+                
               </div>
             </div>
 
             <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div class="low-card-two">
+            
                   <i class="bi bi-building"></i>
-                  <h3>Estate</h3>
+                  <h3 >Estate</h3>
                   <p>Real estate investing offers numerous tax advantages, including deductions for operating costs and depreciation and the potential to defer 
                      capital gains taxes through like-kind exchanges or investing in real estate investment trusts (REITs).</p>
+             
               </div>
             </div>
 
