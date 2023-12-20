@@ -12,7 +12,7 @@
       <div class="row align-items-center">
           <div class="col-lg-5">
               <div class="about-image">
-                  <img src="asset/img/invest3.png" alt="Image">
+                  <img src="{{ asset('asset/img/invest3.png') }}" alt="Image">
               </div>
           </div>
 
@@ -91,7 +91,7 @@
                   </div>
                   
                   <div class="about-btn mb-3 d-flex justify-content-center align-items-center">
-                    <a href="#contact-form" class="default-btn-one ">Grow Your Wealth Now!</a>
+                    <a href="{{ url('/') }}#contact-form" class="default-btn-one ">Grow Your Wealth Now!</a>
                   </div>
               </div>
           </div>
@@ -122,7 +122,7 @@
           <h2>What to consider before you invest</h2>
         </div>
         <div class="row">
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xxl-12 col-lg-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
               <div class="services">  
                 <!-- <i class="bi bi-currency-dollar"></i>-->
@@ -138,7 +138,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-xxl-12 col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
               <div class="services">  
             <!-- <i class="bi bi-piggy-bank"></i>-->
@@ -164,7 +164,7 @@
 <div class="case-details-tab ptb-100">
   <div class="container">
       <div class="row align-items-center">
-          <div class="col-lg-6">
+          <div class="col-xxl-7 col-lg-6">
               <div class="case-details-tab-item">
                   <h2>Pick Your Investment Strategies</h2>
                   <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -186,50 +186,50 @@
                       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                           <h3>Hands-off investments managed by a human</h3>
                           <p>
-                              If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services —
-                              sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.
-                          </p>
-                          <p>With this strategy, a financial advisor builds and manages your investments on your behalf.
-                              This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
-                          </p>
+                            If you’d prefer to park your investments with a professional, a financial advisor may be the way to go. Investment management services —
+                            sometimes called wealth advisory services — are offered by all of the major financial institutions in Canada.
+                         </p>
+                        <p>
+                            With this strategy, a financial advisor builds and manages your investments on your behalf.
+                            This strategy is best for investors who don’t want to manage their own investments and prefer the human touch of a financial advisor.
+                        </p>
+                            
                       </div>
                       <!-- Content for Robo-Advisor tab -->
                       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                           <h3>Hands-off investments managed by an algorithm</h3>
-                          <p> Some brokerages provide access to robo-advisors, automated investment services that use sophisticated algorithms. Here's how it works:
-                          </p>
-                          <p>
-                              <ul>
-                                  <li>Fill out an online application</li>
-                                  <li>Answer questions about financial goals and risk tolerance</li>
-                                  <li>The robo-advisor creates and manages a portfolio based on your responses. The system employs complex algorithms for continuous
-                                      account monitoring and portfolio rebalancing.</li>
-                              </ul>
-                          </p>
+                          <p> A robo-advisor automates investment management using algorithms. Investors answer questions about their financial goals and risk 
+                              tolerance, allowing the robo-advisor to create a diversified portfolio. This hands-off approach is designed for simplicity and cost-effectiveness,providing an accessible option for those without extensive 
+                              financial expertise.</p>
+                          <p>  Continuous monitoring and adjustments ensure the portfolio aligns with the investor's objectives over time.
+                          </p>  
+
                       </div>
                       <!-- Content for Self-Directed tab -->
                       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                          <h3>Pick your own investments</h3>
-                          <p> For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go.
-                              This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing.
-                              You’ll also be solely responsible for monitoring your investments and making adjustments over time as needed.
+                          <h3>Self-directed approach for hands-on control</h3>
+                          <p>
+                            For those that want full control over the investing process, self-directed investing, or DIY investing, may be the best way to go.
+                            This approach involves opening an account with an investment brokerage and putting together a portfolio of your choosing.
+                            
                           </p>
-                          <p>This strategy is best for investors who want to manage their investments firsthand and don’t mind the extra homework
-                              that often comes with managing a portfolio solo.
+                          <p>
+                            You'll be responsible for monitoring and adjusting your investments as needed, making this strategy ideal for hands-on investors 
+                            comfortable with the added workload of managing a portfolio independently.
                           </p>
                       </div>
 
-                      <div class="about-btn mb-2">
-                          <a href="#contact-form" class="default-btn-two">Secure Your Future</a>
+                      <div class="about-btn mb-3">
+                          <a href="{{ url('/') }}#contact-form" class="default-btn-two">Secure Your Future</a>
                       </div>
                   </div>
               </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-xxl-5 col-lg-6">
               <div class="case-details-tab-item">
                   <div class="case-details-tab-img" id="strategy-image">
                       <!-- The default image is loaded on page load -->
-                      <img src="asset/img/strategies.png" alt="Default Image" class="loaded">
+                      <img src="{{asset('asset/img/strategies.png')}}" alt="Default Image" class="loaded">
                   </div>
               </div>
           </div>
@@ -249,11 +249,11 @@
 
       // Change the image source based on the selected strategy
       if (strategy === 'financial-advisor') {
-          imageElement.innerHTML = '<img src="asset/img/strategies.png" alt="Financial Advisor Image" class="loaded">';
+          imageElement.innerHTML = '<img src="{{asset('asset/img/strategies.png')}}" alt="Financial Advisor Image" class="loaded">';
       } else if (strategy === 'robo-advisor') {
-          imageElement.innerHTML = '<img src="asset/img/robo.png" alt="Robo-Advisor Image" class="loaded">';
+          imageElement.innerHTML = '<img src="{{asset('asset/img/robo.png')}}" alt="Robo-Advisor Image" class="loaded">';
       } else if (strategy === 'self-directed') {
-          imageElement.innerHTML = '<img src="asset/img/self.png" alt="Self-Directed Image" class="loaded">';
+          imageElement.innerHTML = '<img src="{{asset('asset/img/self.png')}}" alt="Self-Directed Image" class="loaded">';
       }
   }
 </script>
@@ -264,12 +264,12 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/skills.png" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/skills.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>How can I Invest with Little Money?</h3>
             <p>
-                <ol>
+                <ol class="list-unstyled">
                     <li class="pt-3">Invest quarters at a time using a spare change app</li>
                     <li class="pt-3">Set up small, monthly transfers from your checking account</li>
                     <li class="pt-3">Use a low-cost investing service</li>
@@ -289,85 +289,85 @@
     <div class="slider">
   
             <div class="slider-item">
-            <img src="asset/img/banner/apollo.jpg"  data-lightbox="slider" alt="Slide 1">
+            <img src="{{asset('asset/img/banner/apollo.jpg')}}"  data-lightbox="slider" alt="Slide 1">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/akamai.jpg"  data-lightbox="slider" alt="Slide 2">
+            <img src="{{asset('asset/img/banner/akamai.jpg')}}"  data-lightbox="slider" alt="Slide 2">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/assurant.jpg"  data-lightbox="slider" alt="Slide 3">
+            <img src="{{asset('asset/img/banner/assurant.jpg')}}"  data-lightbox="slider" alt="Slide 3">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/Axcellis.jpg"  data-lightbox="slider" alt="Slide 4">
+            <img src="{{asset('asset/img/banner/Axcellis.jpg')}}"  data-lightbox="slider" alt="Slide 4">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/Chipotle.jpg"  data-lightbox="slider" alt="Slide 5">
+            <img src="{{asset('asset/img/banner/Chipotle.jpg')}}"  data-lightbox="slider" alt="Slide 5">
             </div>   
             <div class="slider-item">
-            <img src="asset/img/banner/console.jpg"  data-lightbox="slider" alt="Slide 6">
+            <img src="{{asset('asset/img/banner/console.jpg')}}"  data-lightbox="slider" alt="Slide 6">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/ECOLAB.jpg"  data-lightbox="slider" alt="Slide 7">
+            <img src="{{asset('asset/img/banner/ECOLAB.jpg')}}"  data-lightbox="slider" alt="Slide 7">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/euroseas.jpg"  data-lightbox="slider" alt="Slide 8">
+            <img src="{{asset('asset/img/banner/euroseas.jpg')}}"  data-lightbox="slider" alt="Slide 8">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/expedia.jpg"  data-lightbox="slider" alt="Slide 9">
+            <img src="{{asset('asset/img/banner/expedia.jpg')}}"  data-lightbox="slider" alt="Slide 9">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/INSIGHT.jpg"  data-lightbox="slider" alt="Slide 10">
+            <img src="{{asset('asset/img/banner/INSIGHT.jpg')}}"  data-lightbox="slider" alt="Slide 10">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/KADANT.jpg"  data-lightbox="slider" alt="Slide 11">
+            <img src="{{asset('asset/img/banner/KADANT.jpg')}}"  data-lightbox="slider" alt="Slide 11">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/kinsale.jpg"  data-lightbox="slider" alt="Slide 12">
+            <img src="{{asset('asset/img/banner/kinsale.jpg')}}"  data-lightbox="slider" alt="Slide 12">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/lily.jpg"  data-lightbox="slider" alt="Slide 13">
+            <img src="{{asset('asset/img/banner/lily.jpg')}}"  data-lightbox="slider" alt="Slide 13">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/Marriot.jpg"  data-lightbox="slider" alt="Slide 14">
+            <img src="{{asset('asset/img/banner/Marriot.jpg')}}"  data-lightbox="slider" alt="Slide 14">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/moody.jpg"  data-lightbox="slider" alt="Slide 15">
+            <img src="{{asset('asset/img/banner/moody.jpg')}}"  data-lightbox="slider" alt="Slide 15">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/MOTOROLA.jpg"  data-lightbox="slider" alt="Slide 16">
+            <img src="{{asset('asset/img/banner/MOTOROLA.jpg')}}"  data-lightbox="slider" alt="Slide 16">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/nrg.jpg"  data-lightbox="slider" alt="Slide 17">
+            <img src="{{asset('asset/img/banner/nrg.jpg')}}"  data-lightbox="slider" alt="Slide 17">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/OneMain.jpg"  data-lightbox="slider" alt="Slide 18">
+            <img src="{{asset('asset/img/banner/OneMain.jpg')}}"  data-lightbox="slider" alt="Slide 18">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/owens.jpg"  data-lightbox="slider" alt="Slide 19">
+            <img src="{{asset('asset/img/banner/owens.jpg')}}"  data-lightbox="slider" alt="Slide 19">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/ph.jpg"  data-lightbox="slider" alt="Slide 20">
+            <img src="{{asset('asset/img/banner/ph.jpg')}}"  data-lightbox="slider" alt="Slide 20">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/ralph.jpg"  data-lightbox="slider" alt="Slide 21">
+            <img src="{{asset('asset/img/banner/ralph.jpg ')}}" data-lightbox="slider" alt="Slide 21">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/saia.jpg"  data-lightbox="slider" alt="Slide 22">
+            <img src="{{asset('asset/img/banner/saia.jpg')}}"  data-lightbox="slider" alt="Slide 22">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/super micro.jpg"  data-lightbox="slider" alt="Slide 23">
+            <img src="{{asset('asset/img/banner/super micro.jpg ')}}"  data-lightbox="slider" alt="Slide 23">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/vertex.jpg"  data-lightbox="slider" alt="Slide 24">
+            <img src="{{asset('asset/img/banner/vertex.jpg')}}"  data-lightbox="slider" alt="Slide 24">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/watsco.jpg"  data-lightbox="slider" alt="Slide 25">
+            <img src="{{asset('asset/img/banner/watsco.jpg')}}"  data-lightbox="slider" alt="Slide 25">
             </div>
             <div class="slider-item">
-            <img src="asset/img/banner/wesco.jpg"  data-lightbox="slider" alt="Slide 26">
+            <img src="{{asset('asset/img/banner/wesco.jpg')}}"  data-lightbox="slider" alt="Slide 26">
             </div>
             <div class="slider-item">
-              <img src="asset/img/banner/mr cooper.jpg"  data-lightbox="slider" alt="Slide 27">
+              <img src="{{asset('asset/img/banner/mr cooper.jpg')}}"  data-lightbox="slider" alt="Slide 27">
             </div>
 
     </div>
@@ -385,7 +385,8 @@
                   <div class="slider-content">
                       <div class="row">
                           <div class="col-lg-6">
-                              <span>Types of Investment for Beginners</span>
+                             
+                              <span><p>Types of Investment for Beginners</p></span>
                               <h1>Stock</h1>
                               <p>Stocks or equities are shares of a company that you ideally buy low and sell higher. They also may generate income through dividends, or regular payouts of profits 
                                 that some companies pay to shareholders. For example, when Facebook first went public in May 2012, you could buy shares for about $38 each. The company’s stock has skyrocketed since then, 
@@ -393,12 +394,12 @@
 
                               <p>Remember: Not all companies offer dividends and stock values don't always go up. If share prices fall, you may wind up with stocks worth less than you paid for them.</p>
                               <div class="about-btn">
-                                <a href="#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
+                                <a href="{{ url('/') }}#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
                               </div>
                           </div>
                           <div class="col-lg-6">
                               <div class="slider-image">
-                                  <img src="asset/img/hero-slider/stocksm.png" alt="Image">
+                                  <img src="{{asset('asset/img/hero-slider/stocksm.png')}}" alt="Image">
                               </div>
                           </div>
                       </div>
@@ -415,7 +416,7 @@
                   <div class="slider-content">
                       <div class="row">
                           <div class="col-lg-6">
-                              <span>Types of Investment for Beginners</span>
+                              <span><p>Types of Investment for Beginners</p></span>
                               <h1>Bonds</h1>
                               <p> A bond is essentially a loan from an investor to a borrower. Borrowers may be anyone from federal and local governments 
                                  to private companies. Investors generally expect to receive full repayment of the loan—plus interest—by the time the loan is due.
@@ -425,12 +426,12 @@
                                   tax advantages,such as municipal bonds or Treasury bonds. 
                               </p>
                               <div class="about-btn">
-                                <a href="#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
+                                <a href="{{ url('/') }}#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
                             </div>
                           </div>
                           <div class="col-lg-6">
                               <div class="slider-image">
-                                  <img src="asset/img/hero-slider/bondsm.png" alt="Image">
+                                  <img src="{{asset('asset/img/hero-slider/bondsm.png')}}" alt="Image">
                               </div>
                           </div>
                       </div>
@@ -447,7 +448,7 @@
                 <div class="slider-content">
                     <div class="row">
                         <div class="col-lg-6">
-                            <span>Types of Investment for Beginners</span>
+                            <span><p>Types of Investment for Beginners</p></span>
                             <h1>Real Estate</h1>
                             <p> You can take your money and put it into a second home or an investment property. Both types of investments can be 
                               rented out to recoup some or all of the money you’re spending on the property for the year. Renting out multiple properties 
@@ -458,12 +459,12 @@
                               the property well then holding it as an asset for multiple years can mean a nice increase when you sell it one day.
                             </p>   
                             <div class="about-btn">
-                              <a href="#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
+                              <a href="{{ url('/') }}#contact-form" class="default-btn-two">Unlock Wealth Potential</a>
                           </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="slider-image">
-                                <img src="asset/img/hero-slider/estatesm.png" alt="Image">
+                                <img src="{{asset('asset/img/hero-slider/estatesm.png')}}" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -528,7 +529,7 @@
            Investment planning is the main component of financial planning. The investment planning begins
            with identification of goals and objectives. Then we need to match those goals with our available financial resources. 
         </p>
-        <a href="#contact-form" class="default-btn-one btn-round text-uppercase mt-3">Start Your Prosperity Journey
+        <a href="{{ url('/') }}#contact-form" class="default-btn-one btn-round text-uppercase mt-3">Start Your Prosperity Journey
         </a>
       </div>
      
@@ -725,11 +726,7 @@
                   </div>
                   <div class="row">
                       <div class="col-lg-12 col-md-12">
-                          <div class="form-group">
-                              <textarea name="data[description]" id="message" class="form-control" cols="30" rows="6" data-error="Please enter your message" placeholder="Write message..."></textarea>
-                              <div class="help-block with-errors"></div>
-                              <i class="las la-sms"></i>
-                          </div>
+               
                       </div>
                       <input type="hidden" name="timestamp" id="timestamp">
                       <div class="col-lg-12 col-md-12">
@@ -772,7 +769,7 @@
                     return false;
                 });
         });
-    </script>
+</script>
 <!--End of FAQ---->
 
 </main>

@@ -292,12 +292,17 @@
   .case-details-tab .case-details-tab-item h2 {
     font-size: 30px;
   }
-  .case-details-tab .case-details-tab-item .nav-pills .nav-link {
+  .case-details-tab .case-details-tab-item .nav-pills .nav-link{
     width: 104px;
     margin-right: 5px;
     font-size: 12px;
     padding: 10px 0;
+   
   }
+
+ 
+
+
   .case-details-tab .case-details-tab-item .tab-content p {
     margin-bottom: 30px;
   }
@@ -760,4 +765,31 @@
     max-width: 1170px;
   }
 }
+@media (max-width: 1166px) {
+  .hero-slider .slider-content{
+      text-align: left;
+  }
+
+  .hero-slider .slider-content h1,
+  .hero-slider .slider-content p {
+      text-align: left  /* Add !important to ensure the styles override other conflicting styles */
+      
+  }
+}
+@media (min-width: 2109px) {
+  .choose-text {
+    margin-right: 40px; /* Adjust the margin as needed */
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1166px) {
+  .hero-slider .slider-content {
+      text-align: left;
+  }
+
+  .hero-slider .about-btn {
+      text-align: left;
+  }
+}
+
 /*# sourceMappingURL=responsive.css.map */

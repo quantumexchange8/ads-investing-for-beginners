@@ -128,7 +128,7 @@ p:last-child {
 
 .default-btn-one:hover {
   background-color: #ffffff ;
-  border:1px solid rgb(32, 58, 71);
+  border:0.3px solid rgb(32, 58, 71);
   color: rgb(32, 58, 71);
 }
 
@@ -1128,7 +1128,7 @@ Hero Slider Area
 }
 .hero-slider .hero-slider-item .slider-content span {
   font-size: 15px;
-  display: inline-block;
+  display: block;
   padding-bottom: 8px;
   margin-bottom: 15px;
   color: #ffffff;
@@ -1409,6 +1409,10 @@ About Us Area
   padding-left: 25px;
   position: relative;
   color: #26366d;
+}
+.about-area .about-text p{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-area .about-text ul li i {
@@ -2299,7 +2303,10 @@ Choose Area
   max-width: 555px;
   margin-left: auto;
 }
-
+.choose-area .choose-text p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 .choose-area .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -4301,6 +4308,8 @@ Faq Area
 
 .case-details-tab .case-details-tab-item .tab-content p {
   color: #f0efef;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .case-details-tab .case-details-tab-item .tab-content ul li{
   color: #f0efef;
@@ -4476,6 +4485,15 @@ Gallery  Area
         }
     }
 
+    @media (max-width: 1280px) {
+      .slick-prev.slick-arrow:before
+     {
+          left: 5px; /* Adjust the left position for smaller screens */
+   
+      }
+  }
+
+
       .slick-dots {
         display: flex;
         justify-content: center;
@@ -4492,17 +4510,6 @@ Gallery  Area
         margin: 0 5px; /* Adjust spacing between dots */
         cursor: pointer;
     }
-    #strategy-section {
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-      -webkit-transition: opacity 0.5s ease-in-out;
-      -moz-transition: opacity 0.5s ease-in-out;
-      -ms-transition: opacity 0.5s ease-in-out;
-      -o-transition: opacity 0.5s ease-in-out;
-}
 
-  #strategy-section.visible {
-      opacity: 1;
-  }
-
+  
 /*# sourceMappingURL=style.css.map */
