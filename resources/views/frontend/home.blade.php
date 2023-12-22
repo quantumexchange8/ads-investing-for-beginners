@@ -122,10 +122,10 @@
           <h2>What to consider before you invest</h2>
         </div>
         <div class="row">
-          <div class="col-xxl-12 col-lg-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
               <div class="services">  
-                <!-- <i class="bi bi-currency-dollar"></i>-->
+          
               </div>
               <div class="member-info">
                 <h4>Do you have a lot of credit card debt?</h4>
@@ -138,10 +138,10 @@
             </div>
           </div>
 
-          <div class="col-xxl-12 col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
               <div class="services">  
-            <!-- <i class="bi bi-piggy-bank"></i>-->
+      
               </div>
               <div class="member-info">
                 <h4>Do you have an emergency fund?</h4>
@@ -269,7 +269,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>How can I Invest with Little Money?</h3>
             <p>
-                <ol class="list-unstyled">
+                <ol>
                     <li class="pt-3">Invest quarters at a time using a spare change app</li>
                     <li class="pt-3">Set up small, monthly transfers from your checking account</li>
                     <li class="pt-3">Use a low-cost investing service</li>
