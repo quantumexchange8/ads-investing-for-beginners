@@ -267,7 +267,7 @@
             <img src="{{asset('assets/img/skills.png')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>How can I Invest with Little Money?</h3>
+            <h3>How Can I Invest With Little Money?</h3>
             <p>
                 <ol>
                     <li class="pt-3">Invest quarters at a time using a spare change app</li>
