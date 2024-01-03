@@ -69,7 +69,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
 </head>
 
-<body>
+<body id="navbar">
 
     <!-- Header part-->
   @include('layout.topbar')
